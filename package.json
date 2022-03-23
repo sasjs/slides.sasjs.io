@@ -1,0 +1,26 @@
+{
+  "name": "slides",
+  "version": "1.1.1",
+  "description": "Presentations on SASjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slides.sasjs/sasjs.io.git"
+  },
+  "keywords": [
+    "SAS",
+    "Viya",
+    "SASjs"
+  ],
+  "author": "Allan Bowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasjs/slides.sasjs.io/issues"
+  },
+  "homepage": "https://slides.sasjs.io",
+  "devDependencies": {}
+}
