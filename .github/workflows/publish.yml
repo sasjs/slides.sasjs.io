@@ -5,10 +5,8 @@ on:
       - main
 
 jobs:
-
   slides:
     name: Generate slides
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
