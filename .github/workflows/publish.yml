@@ -17,6 +17,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: MSUG slides
+        run: npx @marp-team/marp-cli ./slides/msug.md -o ./docs/msug/index.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Commit and push slides
         uses: EndBug/add-and-commit@v5
         with:
