@@ -40,12 +40,13 @@ npx @marp-team/marp-cli msug.md -o ../slides/msut/index.html
 ---
 
 
-# SAS Web Server
+# SAS Platforms
 
-|Viya 4 | SAS 9 | SASjs Server|
-|---|---|---|
-|External Only| Internal Only (htdocs)| Internal / External|
-
+|Item|Viya 4 | SAS 9 | SASjs Server|
+|---|---|---|---|
+|Web Server|External Only| Internal Only (htdocs)| Internal / External|
+|App Server|Jobs|Stored Processes|Stored Programs|
+|Rest API|
 
 ---
 # SASjs Framework

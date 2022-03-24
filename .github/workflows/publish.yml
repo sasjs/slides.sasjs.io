@@ -12,13 +12,18 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
 
+      - name: Copy images
+        run: cp -R ./
+        env:
+          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Generate 6 min slides
-        run: npx @marp-team/marp-cli ./slides/slides6min.md -o ./docs/appdev/index.html
+        run: npx @marp-team/marp-cli ./slides/slides6min.md -o ./appdev/index.html
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: MSUG slides
-        run: npx @marp-team/marp-cli ./slides/msug.md -o ./docs/msug/index.html
+        run: npx @marp-team/marp-cli ./slides/msug.md -o ./msug/index.html
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
