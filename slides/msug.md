@@ -20,10 +20,10 @@ npx @marp-team/marp-cli msug.md -o ../msug/index.html
 
 ![bg right:40% height:80](../img/sas-apps.svg)
 
-* Modernise legacy AF/SCL and SAS/Intrnet
-* Migrate SAS Apps from SAS 9 to Viya
-* Manifest new SAS Apps & DevOps tools
-* SAS App Support
+- Modernise legacy AF/SCL and SAS/Intrnet
+- Migrate SAS Apps from SAS 9 to Viya
+- Manifest new SAS Apps & DevOps tools
+- SAS App Support
 
 ---
 
@@ -32,32 +32,12 @@ npx @marp-team/marp-cli msug.md -o ../msug/index.html
 ![bg right:55% height:670](../diagrams/contributions.svg)
 
 ---
-# Why Build Web Apps on SAS?
 
-- Data Management & Analytics
-- Enterprise Security & Scalability
-![bg right:50% height:700](https://algorithmia.com/blog/wp-content/uploads/2019/10/Jira_workflow_animation.gif)
-- Self-Serve Solutions
+# Demo - Data Controller
 
-
----
-
-
-# HTML5 App Architecture
-
-![bg right:65% height:370 ](https://sasjs.io/img/architecture.png)
-
----
-
-
-# SAS Platform Comparison
-
-|Item|Viya 4 | SAS 9 EBI | SASjs Server|
-|---|---|---|---|
-|Web Server|External Only| Internal Only (htdocs)| Internal / External|
-|App Server|Job Execution Service|Stored Process Server|SASjs Session Manager|
-|Execution Unit|Jobs|Stored Processes|Stored Programs|
-|Technology|Go|Java|NodeJS|
+- https://sas.analytium.co.uk:5000
+- https://datacontroller.io
+- https://docs.datacontroller.io
 
 ---
 # SASjs Framework
@@ -70,62 +50,69 @@ _Tool Box for SAS Apps & Solution Development_
 - @sasjs/server - Web Server & REST API for Base SAS
 
 <!-- TRANSCRIPT
-SASjs lets you build on one platform and deploy to 3
+Necessity is the mother of invention!
 -->
-
----
-# SASjs Adapter
-_A JavaScript library that can talk to any SAS Platform_
-
-- Authentication
-- Bidirectional communication with SAS
-- `npm install @sasjs/adapter`
-
-<!-- TRANSCRIPT
-The adapter handles SAS Logon authentication and all the back and forth between the frontend app and the backend SAS server.  It can be installed locally in an NPM project, or directly in any web app with a script tag.
--->
-
----
-# SASjs CLI
-
-_A Command Line Interface for Dev Ops & opinionated App Development_
-
-- Scaffolding new projects
-- Automated Deployments, Tests, Documentation
-- `npm install --global @sasjs/cli`
----
-# SASjs Core
-
-_Over 200 utility macros to accelerate app development_
-- Make Services, Folders, Groups & more
-- Base SAS, Metadata, Viya, SASjs Server, LUA, DDL
-- `npm install @sasjs/core`
-
----
-# SASjs Core - Demo
-
- - Tests
- - Documentation
- - https://gitpod.io/github.com/sasjs/core
-
-
-
 
 ---
 # SASjs Server
 
 _A Web Server and REST API for Base SAS_
+
 - SASjs Drive for content
 - SASjs Studio for code execution
-- AppStream for deployed Apps
+- SASjs AppStream for deployed Apps
 
 ---
-# SASjs Server - Configurations
-_Configuration is made through a .env file, environment variables, or on the launch command itself_
-- http/https
-- desktop/server mode
-- Ports
 
+# HTML5 App Architecture
+
+![bg right:65% height:370 ](https://sasjs.io/img/architecture.png)
+
+---
+
+# SAS Platform Comparison
+
+|Item|Viya 4 | SAS 9 EBI | SASjs Server|
+|---|---|---|---|
+|Web Server|External Only| Internal Only (htdocs)| Internal / External|
+|App Server|Job Execution Service|Stored Process Server|SASjs Session Manager|
+|Execution Unit|Jobs|Stored Processes|Stored Programs|
+|Technology|Go|Java|NodeJS|
+
+---
+
+# Demo - Deployment & Configuration
+
+- https://github.com/sasjs/server
+- with / without variables
+- http / https
+
+
+---
+
+# Demo - SASjs Server Interfaces
+
+- Drive (edit, execute)
+- Studio (session manager: https://github.com/sasjs/server)
+- REST API (run SAS code)
+
+---
+# Demo - AppStream
+
+_Prepending these urls with "gitpod.io/" will create a temporary container instance for that repo_
+
+- Angular - https://github.com/sasjs/angular-seed-app
+- React - https://github.com/sasjs/react-seed-app
+- Vanilla JS - https://github.com/sasjs/minimal-seed-app
+
+---
+# Demo - SASjs Server for Running Tests
+
+_Tests can be written for SAS Macros, Jobs & Services._
+
+ - https://github.com/sasjs/template_jobs
+ - https://github.com/sasjs/core
+ - https://cli.sasjs.io/test
 ---
 # Roadmap
 
