@@ -40,31 +40,24 @@ npx @marp-team/marp-cli msug.md -o ../slides/msut/index.html
 ---
 
 
-# SAS Platforms
+# SAS Platform Comparison
 
-|Item|Viya 4 | SAS 9 | SASjs Server|
+|Item|Viya 4 | SAS 9 EBI | SASjs Server|
 |---|---|---|---|
 |Web Server|External Only| Internal Only (htdocs)| Internal / External|
 |App Server|Jobs|Stored Processes|Stored Programs|
-|Rest API|
+|Technology|Go|Java|NodeJS|
 
 ---
 # SASjs Framework
 
-- @sasjs/core - Macro library
 - @sasjs/adapter - Connectivity
 - @sasjs/cli - CI/CD and Automated Deployment
-
----
-# SASjs Core
-
-- Make Services, Folders, Groups & more
-- Base SAS, Metadata, Viya
-- `npm install @sasjs/core`
+- @sasjs/core - Macro library
+- @sasjs/server - Web Server & REST API for Base SAS
 
 <!-- TRANSCRIPT
-Over 100 utility macros to accelerate app development at the backend, whether that's standalone SAS, SAS 9 or Viya.
-It can be installed locally in a GIT project and version locked with NPM, included directly from the git repo in a SAS session, or deployed in a more traditional way using SASAUTOs.
+SASjs lets you build on one platform and deploy to 3
 -->
 
 ---
@@ -77,6 +70,19 @@ It can be installed locally in a GIT project and version locked with NPM, includ
 <!-- TRANSCRIPT
 The adapter handles SAS Logon authentication and all the back and forth between the frontend app and the backend SAS server.  It can be installed locally in an NPM project, or directly in any web app with a script tag.
 -->
+---
+# SASjs Core
+
+- Make Services, Folders, Groups & more
+- Base SAS, Metadata, Viya
+- `npm install @sasjs/core`
+
+<!-- TRANSCRIPT
+Over 100 utility macros to accelerate app development at the backend, whether that's standalone SAS, SAS 9 or Viya.
+It can be installed locally in a GIT project and version locked with NPM, included directly from the git repo in a SAS session, or deployed in a more traditional way using SASAUTOs.
+-->
+
+
 
 ---
 # SASjs CLI
