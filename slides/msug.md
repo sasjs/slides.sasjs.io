@@ -4,7 +4,7 @@ theme: default
 paginate: true
 
 <!--
-npx @marp-team/marp-cli msug.md -o ../slides/msut/index.html
+npx @marp-team/marp-cli msug.md -o ../msug/index.html
 -->
 
 ---
@@ -14,6 +14,16 @@ npx @marp-team/marp-cli msug.md -o ../slides/msut/index.html
 ## Allan Bowe
 
 ![bg right:33% height:250](https://datacontroller.io/wp-content/uploads/2020/10/abow.png)
+
+---
+# 4GL Apps
+
+![bg right:40% height:80](../img/sas-apps.svg)
+
+* Modernise legacy AF/SCL and SAS/Intrnet
+* Migrate SAS Apps from SAS 9 to Viya
+* Manifest new SAS Apps & DevOps tools
+* SAS App Support
 
 ---
 
@@ -45,11 +55,14 @@ npx @marp-team/marp-cli msug.md -o ../slides/msut/index.html
 |Item|Viya 4 | SAS 9 EBI | SASjs Server|
 |---|---|---|---|
 |Web Server|External Only| Internal Only (htdocs)| Internal / External|
-|App Server|Jobs|Stored Processes|Stored Programs|
+|App Server|Job Execution Service|Stored Process Server|SASjs Session Manager|
+|Execution Unit|Jobs|Stored Processes|Stored Programs|
 |Technology|Go|Java|NodeJS|
 
 ---
 # SASjs Framework
+
+_Tool Box for SAS Apps & Solution Development_
 
 - @sasjs/adapter - Connectivity
 - @sasjs/cli - CI/CD and Automated Deployment
@@ -62,6 +75,7 @@ SASjs lets you build on one platform and deploy to 3
 
 ---
 # SASjs Adapter
+_A JavaScript library that can talk to any SAS Platform_
 
 - Authentication
 - Bidirectional communication with SAS
@@ -70,31 +84,47 @@ SASjs lets you build on one platform and deploy to 3
 <!-- TRANSCRIPT
 The adapter handles SAS Logon authentication and all the back and forth between the frontend app and the backend SAS server.  It can be installed locally in an NPM project, or directly in any web app with a script tag.
 -->
----
-# SASjs Core
-
-- Make Services, Folders, Groups & more
-- Base SAS, Metadata, Viya
-- `npm install @sasjs/core`
-
-<!-- TRANSCRIPT
-Over 100 utility macros to accelerate app development at the backend, whether that's standalone SAS, SAS 9 or Viya.
-It can be installed locally in a GIT project and version locked with NPM, included directly from the git repo in a SAS session, or deployed in a more traditional way using SASAUTOs.
--->
-
-
 
 ---
 # SASjs CLI
 
-- Project Setup
-- Automated Deployments
+_A Command Line Interface for Dev Ops & opinionated App Development_
+
+- Scaffolding new projects
+- Automated Deployments, Tests, Documentation
 - `npm install --global @sasjs/cli`
+---
+# SASjs Core
 
-<!-- TRANSCRIPT
-The CLI provides an opinionated project setup and a set of easy to use commands for handling common deployment tasks. It needs to be installed globally in order to be available in your preferred shell window.
--->
+_Over 200 utility macros to accelerate app development_
+- Make Services, Folders, Groups & more
+- Base SAS, Metadata, Viya, SASjs Server, LUA, DDL
+- `npm install @sasjs/core`
 
+---
+# SASjs Core - Demo
+
+ - Tests
+ - Documentation
+ - https://gitpod.io/github.com/sasjs/core
+
+
+
+
+---
+# SASjs Server
+
+_A Web Server and REST API for Base SAS_
+- SASjs Drive for content
+- SASjs Studio for code execution
+- AppStream for deployed Apps
+
+---
+# SASjs Server - Configurations
+_Configuration is made through a .env file, environment variables, or on the launch command itself_
+- http/https
+- desktop/server mode
+- Ports
 
 ---
 # Roadmap
