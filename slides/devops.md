@@ -222,8 +222,8 @@ Core attributes:
 
 # Resources
 
+- https://sasjs.io/resources
+- https://datacontroller.io
+- https://github.com/sasjs
 - https://cli.sasjs.io
 - https://sasapps.io
-- https://datacontroller.io
-- https://sasjs.io/resources
-
