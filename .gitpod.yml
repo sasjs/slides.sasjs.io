@@ -1,0 +1,10 @@
+
+tasks:
+  - init: npm install
+
+
+
+vscode:
+  extensions:
+    - SASjs.sasjs-for-vscode
+    - marp-team.marp-vscode

@@ -12,8 +12,13 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
 
-      - name: Generate 6 min slides
+      - name: 6 min slides
         run: npx @marp-team/marp-cli ./slides/slides6min.md -o ./appdev/index.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: DevOps slides
+        run: npx @marp-team/marp-cli ./slides/devops.md -o ./devops/index.html
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
