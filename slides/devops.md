@@ -47,15 +47,15 @@ Focus: **SAS Solutions**
 
 ---
 
-# Traditional SAS Projects
+# Challenges with Traditional SAS Project 
 
-- Single Server >  _Migrations and promotions are a challenge_
 - Scattered Artefacts > _Hard to navigate - changes are lost_
 - Shared Environment > _Edits affect everyone_
+- Single Server >  _Migration Management_
 
 <br>
 
-**Crucially, the lack of a consistent development approach makes for inconsistent project delivery and on-boarding struggles for new developers**
+🤬🤬🤬 **The absence of a _standardised framework_ makes for _inconsistent project delivery_ and _on-boarding struggles_ for new developers**
 
 
 <!--
@@ -68,6 +68,10 @@ Macros on filesystem, Code split between Jobs and Studio programs,
 ## SASjs Workflow
 
 ![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+
+---
+
+![height:800px ](../img/sasjs_lifecircle.png)
 
 ---
 
@@ -210,4 +214,16 @@ Core attributes:
 `sasjs create mydemo --template jobs`
 `sasjs lint`
 `sasjs doc`
+`sasjs auth`
+`sasjs cbd`
+`sasjs test`
+
+--- 
+
+# Resources
+
+- https://cli.sasjs.io
+- https://sasapps.io
+- https://datacontroller.io
+- https://sasjs.io/resources
 
