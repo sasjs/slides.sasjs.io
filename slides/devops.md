@@ -110,9 +110,9 @@ Macros on filesystem, Code split between Jobs and Studio programs,
 
 # Actual Deployments
 
-* Department of Work & Pensions (with SAS UK)
-* Lloyds List Intelligence (with SAS Belgium)
-* SKR Association (with SAS Sweden)
+- Department of Work & Pensions (with SAS UK)
+- Lloyds List Intelligence (with SAS Belgium)
+- SKR Association (with SAS Sweden)
 
 <!-- Plus Data Controller for SAS -->
 ---
@@ -208,3 +208,6 @@ Core attributes:
 # Demo
 
 `sasjs create mydemo --template jobs`
+`sasjs lint`
+`sasjs doc`
+
