@@ -42,12 +42,12 @@ Focus: **SAS Solutions**
 # Services
 
 - Bootstrap complex SAS projects with our GIT centric approach
-- Modernise AF/SCL or SAS/Intrnet Apps
+- Modernise AF/SCL or SAS/IntrNet Apps
 - Migrate SAS 9 Web Apps to Viya
 
 ---
 
-# Challenges with Traditional SAS Project 
+# Challenges with Traditional SAS Project
 
 - Scattered Artefacts > _Hard to navigate - changes are lost_
 - Shared Environment > _Edits affect everyone_
@@ -218,7 +218,7 @@ Core attributes:
 `sasjs cbd`
 `sasjs test`
 
---- 
+---
 
 # Resources
 
