@@ -195,7 +195,7 @@ Every SASjs Project has a `sasjs/sasjsconfig.json` file, for configuration of:
  - Target attributes / connection settings
 
 ---
-# SASjs Target
+# 🎯 SASjs Target 🎯
 
 A location on a SAS server. Can be specific to individual developers, or shared location such as a release environment.
 
@@ -227,3 +227,5 @@ Core attributes:
 - https://github.com/sasjs
 - https://cli.sasjs.io
 - https://sasapps.io
+
+---
