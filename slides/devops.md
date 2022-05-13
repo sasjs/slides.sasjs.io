@@ -96,8 +96,8 @@ Macros on filesystem, Code split between Jobs and Studio programs,
 ---
 # Why Do SAS Admins ❤️ It?
 
- - Nothing to install on the SAS server
- - No SSH or special permissions (server OR desktop)
+ - Nothing to install or provision on the SAS server
+ - No SSH nor special permissions needed anywhere
  - Nothing to configure, except:
      - Optional: Access to the target folder
      - Optional: Client / Secret (Viya)
