@@ -27,6 +27,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: SASjs Server slides
+        run: npx @marp-team/marp-cli ./slides/server.md -o ./server/index.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Commit and push slides
         uses: EndBug/add-and-commit@v5
         with:
