@@ -147,6 +147,16 @@ SASjs Server can also be used as a test runner.  To illustrate, using SASjs Core
 3.  Deploy: `sasjs cbd -t server`
 4.  Run test: `sasjs test ms -t server`
 
+---
+# Mocking Services
+By default, SASjs Server runs only SAS.  A (node) JS runtime can also be selected as a primary or secondary runtime. Config:
+
+```
+NODE_PATH=/usr/bin/node
+RUN_TIMES=js,sas
+```
+
+Demo - running JS in Studio, running minimal seed app with JS services
 
 ---
 # Roadmap
@@ -154,6 +164,8 @@ SASjs Server can also be used as a test runner.  To illustrate, using SASjs Core
 - Permissions
 - Okta integration
 - Python & R runtimes
+
+_or, whatever our projects or sponsors require.._
 ---
 
 # Resources
