@@ -8,7 +8,8 @@ auto-scaling: fittingHeader
 <!-- demo prep:
 1. clear down the server
 2. set up fresh dB
-3. launch core env in advance:  https://gitpod.io/github.com/sasjs/core
+3. launch sonic repo: https://gitpod.io/github.com/allanbowe/sonic
+4. launch core env:  https://gitpod.io/github.com/sasjs/core
 -->
 
 <!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
@@ -53,6 +54,7 @@ Focus: **SAS Solutions**
 
 - App Stream
 - Full REST API
+- Stored Programs
 - Multiple runtimes (SAS, JS)
 - Users & Groups (server mode)
 
@@ -67,8 +69,8 @@ Focus: **SAS Solutions**
 ## Integrations
 
 - [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands including `sasjs deploy` and `sasjs test`
-- [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute SAS from VS Code
-- [sasjs/adapter](https://github.com/sasjs/adapter) - connect to SAS using JavaScript
+- [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute Base SAS from VS Code
+- [sasjs/adapter](https://github.com/sasjs/adapter) - connect to Base SAS using JavaScript
 - [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
 ---
 # Demo - Basic Deploy on http
@@ -122,17 +124,17 @@ The secrets above will soon be [deprecated](https://github.com/sasjs/server/issu
 
 Server mode brings additional capabilities:
 
-* Authentication
-* User Management
-* Group Management
+- Authentication
+- User Management
+- Group Management
 
-Demo - create user / group, add a user to a group
+_Demo - create user / group, add a user to group_
 
 ---
 # Demo - App Stream
 
- - [Sonic]()
- - [Minimal Seed App](https://github.com/sasjs/minimal-seed-app/releases)
+ - [Sonic](https://github.com/allanbowe/sonic)
+ - [Minimal Seed App](https://github.com/sasjs/minimal-seed-app)
  - [Data Controller](https://4gl.uk/dcdeploy)
 
 ---
@@ -164,8 +166,8 @@ Demo - running JS in Studio, running minimal seed app with JS services
 - Python & R runtimes
 
 _or, whatever our projects or sponsors require.._
----
 
+---
 # Resources
 
 - https://github.com/sasjs/server
