@@ -68,23 +68,21 @@
 <header><img src="../img/4gl-logo2.png" alt="align:right" style="height:4em;" /></header>
 <h2>Integrations</h2>
 <ul>
-<li><a href="https://github.com/sasjs/core">sasjs/core</a> - macro library preconfigured</li>
 <li><a href="https://github.com/sasjs/cli">sasjs/cli</a> - run CLI commands including <code>sasjs deploy</code> and <code>sasjs test</code></li>
 <li><a href="https://github.com/sasjs/vscode-extension">sasjs/vscode-extension</a> - execute SAS from VS Code</li>
 <li><a href="https://github.com/sasjs/adapter">sasjs/adapter</a> - connect to SAS using JavaScript</li>
+<li><a href="https://github.com/sasjs/core">sasjs/core</a> - macro library preconfigured</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-background-color="white" data-header="![h:4em align:right](../img/4gl-logo2.png)" data-marpit-pagination="8" data-marpit-pagination-total="16" style="--paginate:true;--background-color:white;--header:![h:4em align:right](../img/4gl-logo2.png);background-color:white;background-image:none;">
 <header><img src="../img/4gl-logo2.png" alt="align:right" style="height:4em;" /></header>
 <h1>Demo - Basic Deploy on http</h1>
-<p>SASjs server can simply be downloaded from the <a href="https://github.com/sasjs/server/releases">releases</a> page on github.</p>
+<p>SASjs server can be manually downloaded from <a href="https://github.com/sasjs/server/releases">github releases</a> page.</p>
 <p>Or, programmatically:</p>
-<ol>
-<li>Grab release: <code>curl -L https://github.com/sasjs/server/releases/latest/download/linux.zip &gt; linux.zip</code></li>
-<li>Unzip: <code>unzip linux.zip</code></li>
-<li>Launch: <code>./api-linux</code></li>
-</ol>
-<p>4GL domain has SSL redirects - so ping for IP</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code>curl -L https://github.com/sasjs/server/releases/latest/download/linux.zip &gt; linux.zip
+unzip linux.zip
+./api-linux
+</code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-background-color="white" data-header="![h:4em align:right](../img/4gl-logo2.png)" data-marpit-pagination="9" data-marpit-pagination-total="16" style="--paginate:true;--background-color:white;--header:![h:4em align:right](../img/4gl-logo2.png);background-color:white;background-image:none;">
 <header><img src="../img/4gl-logo2.png" alt="align:right" style="height:4em;" /></header>
@@ -92,7 +90,7 @@
 <ul>
 <li>Studio returns LOG and WEBOUT (no output)</li>
 <li>Every session is a new session</li>
-<li>Use APIs to load Drive</li>
+<li>Use APIs (and <a href="https://core.sasjs.io/ms__createfile_8sas.html">Studio</a>) to load Drive</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-background-color="white" data-header="![h:4em align:right](../img/4gl-logo2.png)" data-marpit-pagination="10" data-marpit-pagination-total="16" style="--paginate:true;--background-color:white;--header:![h:4em align:right](../img/4gl-logo2.png);background-color:white;background-image:none;">
