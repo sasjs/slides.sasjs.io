@@ -66,30 +66,28 @@ Focus: **SAS Solutions**
 ---
 ## Integrations
 
-- [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
 - [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands including `sasjs deploy` and `sasjs test`
 - [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute SAS from VS Code
 - [sasjs/adapter](https://github.com/sasjs/adapter) - connect to SAS using JavaScript
-
+- [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
 ---
 # Demo - Basic Deploy on http
 
-SASjs server can simply be downloaded from the [releases](https://github.com/sasjs/server/releases) page on github.
+SASjs server can be manually downloaded from [github releases](https://github.com/sasjs/server/releases) page.
 
 Or, programmatically:
 
-1. Grab release: `curl -L https://github.com/sasjs/server/releases/latest/download/linux.zip > linux.zip`
-2. Unzip: `unzip linux.zip`
-3. Launch: `./api-linux`
-
-4GL domain has SSL redirects - so ping for IP
-
+```
+curl -L https://github.com/sasjs/server/releases/latest/download/linux.zip > linux.zip
+unzip linux.zip
+./api-linux
+```
 ---
 # Demo - SASjs Studio, SASjs API & SAS Drive
 
 - Studio returns LOG and WEBOUT (no output)
 - Every session is a new session
-- Use APIs to load Drive
+- Use APIs (and [Studio](https://core.sasjs.io/ms__createfile_8sas.html)) to load Drive
 ---
 # Demo - https deploy (with certificates)
 
