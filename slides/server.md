@@ -59,19 +59,17 @@ Focus: **SAS Solutions**
 ---
 ## SASjs Server Capabilities
 
-- Distribute SAS Apps to ANY and ALL SAS customers
-- Integrate Base SAS with third party systems
+- Integrate Base SAS with third party systems using REST API
+- Build & Distribute SAS Apps to ANY and ALL SAS customers
 - Execute Test Suites with `sasjs test`
 
 ---
-## Pre-Built Integrations
+## Integrations
 
 - [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
-- [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands
+- [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands including `sasjs deploy` and `sasjs test`
 - [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute SAS from VS Code
 - [sasjs/adapter](https://github.com/sasjs/adapter) - connect to SAS using JavaScript
-- Integrate Base SAS with third party systems
-- Execute Test Suites with `sasjs test`
 
 ---
 # Demo - Basic Deploy on http
@@ -87,33 +85,57 @@ Or, programmatically:
 4GL domain has SSL redirects - so ping for IP
 
 ---
+# Demo - SASjs Studio, SASjs API & SAS Drive
+
+- Studio returns LOG and WEBOUT (no output)
+- Every session is a new session
+- Use APIs to load Drive
+---
 # Demo - https deploy (with certificates)
 
-SASjs server can simply be downloaded from the [releases](https://github.com/sasjs/server/releases) page on github.
+To avoid prompts, provide variables in a `.env` file as follows:
+
+```
+SAS_PATH=/opt/sas
+PROTOCOL=https
+CERT_CHAIN=fullchain.pem
+PRIVATE_KEY=privkey.pem
+PORT=443
+```
 
 
 ---
 # Demo - Server Mode
 
-SASjs uses Mongo DB.  Can be set up locally, but we'll use a connection string for a cloud instance.
+SASjs uses Mongo DB.  Can be set up locally, but we'll use a connection string for a cloud instance. Required configs:
 
-Required configs:
-
+```
 MODE=server
-CERT_CHAIN=fullchain.pem
-PRIVATE_KEY=privkey.pem
-PROTOCOL=https
-DB_CONNECT=mongodb+srv://polsug:polsug@cluster0.gblpw.mongodb.net/?retryWrites=true&w=majority
-
-There are also some secrets, but these will soon be [deprecated](https://github.com/sasjs/server/issues/213)
+DB_CONNECT=mongodb+srv://user:pass@cluster0.gblpw.mongodb.net/?retryWrites=true&w=majority
+ACCESS_TOKEN_SECRET=secret
+REFRESH_TOKEN_SECRET=secret
+AUTH_CODE_SECRET=secret
+SESSION_SECRET=secret
+```
+The secrets above will soon be [deprecated](https://github.com/sasjs/server/issues/213)
 
 ---
 # Demo - APIs
 
+Server mode brings additional capabilities:
+
+* Authentication
+* User Management
+* Group Management
+
+Demo - create user / group, add a user to a group
 
 ---
 # Demo - App Stream
 
+ - [Sonic]()
+ - [Minimal Seed App](https://github.com/sasjs/minimal-seed-app/releases)
+ - [Data Controller](https://4gl.uk/dcdeploy)
 
 ---
 # Running tests
