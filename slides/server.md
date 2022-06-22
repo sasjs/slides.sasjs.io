@@ -5,7 +5,11 @@ backgroundColor: white
 auto-scaling: fittingHeader
 
 ---
-
+<!-- demo prep:
+1. clear down the server
+2. set up fresh dB
+3. launch core env in advance:  https://gitpod.io/github.com/sasjs/core
+-->
 
 <!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
 
@@ -41,33 +45,33 @@ Focus: **SAS Solutions**
 # Why Build an Open Source SAS server?
 
 - Deliver apps to traditional Base SAS Users
-- Significantly lower server costs
+- Significantly lower running costs
 - Build & test SAS apps locally
 
 ---
 ## SASjs Server Features
 
-* App Stream
-* Full REST API
-* Multiple runtimes (SAS, JS)
-* Users & Groups (server mode)
+- App Stream
+- Full REST API
+- Multiple runtimes (SAS, JS)
+- Users & Groups (server mode)
 
 ---
 ## SASjs Server Capabilities
 
-* Distribute SAS Apps to ANY and ALL SAS customers
-* Integrate Base SAS with third party systems
-* Execute Test Suites with `sasjs test`
+- Distribute SAS Apps to ANY and ALL SAS customers
+- Integrate Base SAS with third party systems
+- Execute Test Suites with `sasjs test`
 
 ---
 ## Pre-Built Integrations
 
-* [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
-* [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands
-* [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute SAS from VS Code
-* [sasjs/adapter](https://github.com/sasjs/adapter) - connect to SAS using JavaScript
-* Integrate Base SAS with third party systems
-* Execute Test Suites with `sasjs test`
+- [sasjs/core](https://github.com/sasjs/core) - macro library preconfigured
+- [sasjs/cli](https://github.com/sasjs/cli) - run CLI commands
+- [sasjs/vscode-extension](https://github.com/sasjs/vscode-extension) - execute SAS from VS Code
+- [sasjs/adapter](https://github.com/sasjs/adapter) - connect to SAS using JavaScript
+- Integrate Base SAS with third party systems
+- Execute Test Suites with `sasjs test`
 
 ---
 # Demo - Basic Deploy on http
@@ -122,6 +126,12 @@ SASjs Server can also be used as a test runner.  To illustrate, using SASjs Core
 4.  Run test: `sasjs test ms -t server`
 
 
+---
+# Roadmap
+
+- Permissions
+- Okta integration
+- Python & R runtimes
 ---
 
 # Resources
