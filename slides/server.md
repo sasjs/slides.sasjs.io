@@ -47,7 +47,7 @@ Focus: **SAS Solutions**
 
 - Deliver apps to traditional Base SAS Users
 - Significantly lower running costs
-- Build & test SAS apps locally
+- Build & test SAS apps locally (deploy globally)
 
 ---
 ## SASjs Server Features
@@ -112,12 +112,7 @@ SASjs uses Mongo DB.  Can be set up locally, but we'll use a connection string f
 ```
 MODE=server
 DB_CONNECT=mongodb+srv://user:pass@cluster0.gblpw.mongodb.net/?retryWrites=true&w=majority
-ACCESS_TOKEN_SECRET=secret
-REFRESH_TOKEN_SECRET=secret
-AUTH_CODE_SECRET=secret
-SESSION_SECRET=secret
 ```
-The secrets above will soon be [deprecated](https://github.com/sasjs/server/issues/213)
 
 ---
 # Demo - APIs
@@ -162,10 +157,10 @@ Demo - running JS in Studio, running minimal seed app with JS services
 # Roadmap
 
 - Permissions
-- Okta integration
+- Okta / LDAP integration
 - Python & R runtimes
 
-_or, whatever our projects or sponsors require.._
+_or, whatever our projects or sponsors request.._
 
 ---
 # Resources
