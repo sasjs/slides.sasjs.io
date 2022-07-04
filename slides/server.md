@@ -14,6 +14,12 @@ auto-scaling: fittingHeader
 
 <!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
 
+# SASjs Server
+
+![bg right:65% height:120](https://www.eom.nl/wp-content/themes/ecs-eom/assets/images/theme/logo-eom.svg)
+
+---
+
 # About 4GL Apps
 
 _Delivery, Enablement, & Support_
