@@ -6,7 +6,13 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "all": "npm run 6min && npm run devops && npm run msug && npm run server",
+    "6min": "marp ./slides/slides6min.md -o ./appdev/index.html --html=true",
+    "devops": "marp ./slides/devops.md -o ./devops/index.html --html=true",
+    "msug": "marp ./slides/msug.md -o ./msug/index.html --html=true",
+    "server": "marp ./slides/server.md -o ./server/index.html --html=true"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slides.sasjs/sasjs.io.git"
@@ -22,5 +28,7 @@
     "url": "https://github.com/sasjs/slides.sasjs.io/issues"
   },
   "homepage": "https://slides.sasjs.io",
-  "devDependencies": {}
+  "dependencies": {
+    "@marp-team/marp-cli": "2.0.4"
+  }
 }

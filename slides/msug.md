@@ -48,7 +48,6 @@ npx @marp-team/marp-cli msug.md -o ../msug/index.html
 
 # Demo - Data Controller
 
-- https://sas.analytium.co.uk:5000
 - https://datacontroller.io
 - https://docs.datacontroller.io
 

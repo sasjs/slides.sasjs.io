@@ -273,9 +273,9 @@ We have a growing number of additional actions, and if there's any you'd like to
 
 # Allan Bowe, Head of SAS Apps
 
-- allan.bowe@analytium.co.uk
 - https://www.linkedin.com/in/allanbowe/
 - https://github.com/sasjs
+- https://datacontroller.io
 
 <!-- TRANSCRIPT
 The github link is right there, feel free to reach out if you'd like to know more, we'd be happy to arrange workshop or training session for you and your team.
