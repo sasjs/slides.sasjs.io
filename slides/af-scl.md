@@ -56,9 +56,19 @@ _SAS App Migration, Modernisation & Manifestation_
 - Continuous Integration
 
 ---
-# Customer Pain
+# Pain / Gain
 
-|Pain|Suffering|
+| |Pain|Gain|
+|---|---|---|
+|SECURITY|End user identity, embedded passwords..|SASLogon, LDAP, SSO|
+|SCALABILITY|Messy, Manual, Desktop Deploys|CI/CD to cloud instance|
+|SUPPORT|Highly specialist, customer specific|Commodity Skill, Industry Standard Frameworks|
+
+
+---
+# Project Objections
+
+|Topic|Suffering|
 |---|---|
 |❌ Inertia| _App worked fine for decades. Why change it?_|
 |❌ Resource Availability| _We're all super busy and the developer quit in 2003. Documentation? Ha!_|
@@ -66,12 +76,12 @@ _SAS App Migration, Modernisation & Manifestation_
 |❌ House of Cards| _Our data is sensitive, and our infrastructure brittle - systems access is also super difficult to obtain_|
 
 ---
-# Customer Gain
+# Rebuffals
 
-|Pain|Prognosis|
+|Topic|Prognosis|
 |---|---|
-|Inertia|✅ _Propose vastly superior UX and lower maintenance costs_|
-|Resource Availability|✅ _Code review + carefully planned (and recorded) interviews results in minimal customer impact_ |
+|Inertia|✅ _Vastly superior UX and lower maintenance costs_|
+|Resource Availability|✅ _Code review + carefully planned interviews for minimal customer impact_ |
 |Scope Uncertainty|✅  _Phase 0 estimation followed by regular production deliveries_|
 |House of Cards|✅ _Deliver offsite with sample data_|
 
@@ -125,12 +135,12 @@ _Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
 
  - Detailed Plan + Estimates + ARIaD
  - Environment setup (driven from GIT repo)
- - Basic Interface
- - Initial tests, docs, ci/cid
+ - Basic Interface with integrated docs
+ - Initial services, tests, ci/cid
 
  ---
 
-## Phase 1-N - Functional
+## Subsequent Phases - Functional
 
  - Daily Calls
  - Deliver early, deliver often
@@ -138,7 +148,7 @@ _Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
  - End of Phase demonstration
 
 ---
-## Phase 1-N - Backend
+## Subsequent Phases - Backend
 
 - SCL elimination
   - SAS Jobs & Web Services (STP / JES)
@@ -149,7 +159,7 @@ _Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
 - Tests (sasjs test, test data)
 - Documentation (sasjs doc + user / developer guides)
 ---
-## Phase 1-N - Frontend
+## Subsequent Phases - Frontend
 
 _Working from inputs/outputs defined in SAS Service Header_
 
