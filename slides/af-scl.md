@@ -41,9 +41,9 @@ _SAS App Migration, Modernisation & Manifestation_
 
 ![bg right:60% height:640](../img/sasaf2.svg)
 
-* AF + SCL
-* Catalog Centric
-* Manual Deployment
+- AF + SCL
+- Catalog Centric
+- Manual Deployment
 
 ---
 
@@ -51,9 +51,9 @@ _SAS App Migration, Modernisation & Manifestation_
 
 ![bg right:60% height:350](../img/sasaf3.svg)
 
-* JS + SAS
-* GIT / DB Centric
-* Continuous Integration
+- JS + SAS
+- GIT / DB Centric
+- Continuous Integration
 
 ---
 # Customer Pain
@@ -140,29 +140,29 @@ _Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
 ---
 ## Phase 1-N - Backend
 
-* SCL elimination
+- SCL elimination
   * SAS Jobs & Web Services (STP / JES)
   * SCL Transcoding where necessary
-* Catalog elimination
+- Catalog elimination
   * SLISTs -> Database
   * Code -> Source Control (GIT)
-* Tests (sasjs test, test data)
-* Documentation (sasjs doc + user / developer guides)
+- Tests (sasjs test, test data)
+- Documentation (sasjs doc + user / developer guides)
 ---
 ## Phase 1-N - Frontend
 
 _Working from inputs/outputs defined in SAS Service Header_
 
-* Tests (specs + cypress)
-* Documentation (TypeDoc + Developer docs)
-* Accessibility Requirements
+- Tests (specs + cypress)
+- Documentation (TypeDoc + Developer docs)
+- Accessibility Requirements
 
 ---
 ## Testing & Warranty
 
-* Customer Satisfaction Insurance
-* Deployment & Training
-* Support
+- Customer Satisfaction Insurance
+- Deployment & Training
+- Support
 ---
 
 # SASjs Tools
@@ -231,7 +231,7 @@ _Continuously delivered - NOT at the end of the project_
 - [`sasjs test`](https://cli.sasjs.io/test)
 - JS specs
 - Cypress (interface tests)
-- 
+-
 - [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
 - [Developer Guide](https://sasjs.github.io/docs/#/developer-guide/developer-overview)
 - [SAS Docs](https://core.sasjs.io/) (doxygen / sasjs doc)
