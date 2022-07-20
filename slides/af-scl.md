@@ -61,7 +61,7 @@ _SAS App Migration, Modernisation & Manifestation_
 |Pain|Suffering|
 |---|---|
 |❌ Inertia| _App worked fine for decades. Why change it?_|
-|❌ Resource Availability| _We're all super busy and the developer quit in 2003.  Process notes? Ha!_|
+|❌ Resource Availability| _We're all super busy and the developer quit in 2003. Documentation? Ha!_|
 |❌ Scope Uncertainty|_Theres so much code & complexity, this project is guaranteed to cost more and take longer_|
 |❌ House of Cards| _Our data is sensitive, and our infrastructure brittle - systems access is also super difficult to obtain_|
 
@@ -77,7 +77,8 @@ _SAS App Migration, Modernisation & Manifestation_
 
 <!--
 15-30 minute daily standups mandatory
-
+what use and what DON'T use
+offsite generally means MUCH faster iterations
 -->
 
 ---
@@ -91,31 +92,158 @@ _SAS App Migration, Modernisation & Manifestation_
 ---
 # Project Approach
 
-- Detailed Proposal
+- Preparation (pre-sales)
+- Initial Proposal (pre-sales)
 - Phase 0 (estimates and initial interface)
-- Phase 1-N (milestones with 7 day accept or explain)
+- Phase 1-N (milestones with 1 week accept or explain)
 - Testing & Warranty (X days over X months)
 - Support / SLA Proposal (IF preferred vendor)
 
 ---
 
-## SASjs Tools
+## Preparation
+
+_To prepare a meaningful proposal, we need to know what we are proposing against!_
+
+ - Code scanning
+ - Documentation review
+ - Video interview
+---
+## Initial Proposal
+
+ - Vendor Neutral (open source)
+ - Tailored to Customer (preparation stage)
+ - Full Details of:
+   - Delivery Team
+   - SASjs Framework
+   - Project Approach
+---
+
+## Phase 0
+
+_Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
+
+ - Detailed Plan + Estimates + ARIaD
+ - Environment setup (driven from GIT repo)
+ - Basic Interface
+ - Initial tests, docs, ci/cid
+
+ ---
+
+## Phase 1-N - Functional
+
+ - Daily Calls
+ - Deliver early, deliver often
+ - Documentation (user, admin guides)
+ - End of Phase demonstration
+
+---
+## Phase 1-N - Backend
+
+* SCL elimination
+  * SAS Jobs & Web Services (STP / JES)
+  * SCL Transcoding where necessary
+* Catalog elimination
+  * SLISTs -> Database
+  * Code -> Source Control (GIT)
+* Tests (sasjs test, test data)
+* Documentation (sasjs doc + user / developer guides)
+---
+## Phase 1-N - Frontend
+
+_Working from inputs/outputs defined in SAS Service Header_
+
+* Tests (specs + cypress)
+* Documentation (TypeDoc + Developer docs)
+* Accessibility Requirements
+
+---
+## Testing & Warranty
+
+* Customer Satisfaction Insurance
+* Deployment & Training
+* Support
+---
+
+# SASjs Tools
 
 - [sasjs/cli](https://github.com/sasjs/cli) - commands include `sasjs deploy`, `sasjs test` and `sasjs doc`
 - [sasjs/adapter](https://github.com/sasjs/adapter) - clean & robust JS <-> SAS connectivity
 - [sasjs/core](https://github.com/sasjs/core) - hundreds of open source macros for Application Development
 
 ---
-## More SASjs Tools
+# More Tools
 
 - [Data Controller](https://datacontroller.io) - swiss army knife of controlled data capture
 - [SASjs Seed Apps](https://github.com/search?q=topic%3Asasjs-seed-app+org%3Asasjs+fork%3Atrue) - rapid project initiation
-- [SASjs Doc Repo](https://github.com/sasjs/docs) - user / dev / admin guide + code docs in 1st sprint
+- [SASjs Server](https://server.sasjs.io) - test frontend in pipeline, work offline, mocked services
+
+---
+
+<header style="text-align: right">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SCLssssssssssssssssssssssssss </header>
+
+# SCL Kit
+## Functions
+
+![bg right:67% height:300](../img/sasaf4.png)
+
+---
+# SCL Kit
+## Submit Blocks
+
+![bg right:67% height:300](../img/sasaf5.png)
+
+---
+# SCL Kit
+## Object Methods
+
+![bg right:75% height:430](../img/sasaf6.png)
+
+---
+# SCL Kit
+## Method Blocks
+
+![bg right:75% height:430](../img/sasaf7.png)
+
+---
+# SCL Kit
+## After / Before
+
+![bg right:79% height:600](../img/sasaf8.png)
+
+---
+# Documentation
+
+_Continuously delivered - NOT at the end of the project_
+
+- [User Guide](https://sasjs.github.io/docs/#/?id=%2fuser-guide%2fuser-overview)
+- [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
+- [Developer Guide](https://sasjs.github.io/docs/#/developer-guide/developer-overview)
+- [SAS Docs](https://core.sasjs.io/) (doxygen / sasjs doc)
+- [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
+
+
+---
+# Testing
+
+_Continuously delivered - NOT at the end of the project_
+
+- [`sasjs test`](https://cli.sasjs.io/test)
+- JS specs
+- Cypress (interface tests)
+- 
+- [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
+- [Developer Guide](https://sasjs.github.io/docs/#/developer-guide/developer-overview)
+- [SAS Docs](https://core.sasjs.io/) (doxygen / sasjs doc)
+- [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
+
 
 
 
 ---
 # Resources
 
-- https://datacontroller.io
-- https://sasapps.io
+- SAS Apps [Blog Post](https://sasapps.io/modernising-legacy-sas-scl-af-applications)
+- Easy AF [article](https://www.linkedin.com/pulse/easy-af-scl-modernisation-html5-sas-allan-bowe/)
+- UK SAS Forum [presentation](https://drive.google.com/file/d/1RMLxFccaXYh35IGnbcFjISFmZUIdetUO/view)
+- RawSAS [post](https://rawsas.com/modernising-legacy-sas-scl-af-applications/)
