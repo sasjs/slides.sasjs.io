@@ -1,7 +1,9 @@
 # Slides
 
-A collection of slides in relation to SASjs
+Available decks:
 
-To add a new deck, create the relevant .md file under /slides, and update the github action in .github/workflows/publish.yml
-
-Outputs are sent to /docs/SLIDEFOLDER/index.html and served via github pages.
+* [AF/SCL Modernisation Approach](https://slides.sasjs.io/af-scl)
+* SASjs [DevOps](/devops)
+* DevOps for [MSUG](/msug)
+* SASjs [Server](/server)
+* SASjs for [AppDev](/appdev)
