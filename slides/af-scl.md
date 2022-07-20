@@ -141,11 +141,11 @@ _Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
 ## Phase 1-N - Backend
 
 - SCL elimination
-  * SAS Jobs & Web Services (STP / JES)
-  * SCL Transcoding where necessary
+  - SAS Jobs & Web Services (STP / JES)
+  - SCL Transcoding where necessary
 - Catalog elimination
-  * SLISTs -> Database
-  * Code -> Source Control (GIT)
+  - SLISTs -> Database
+  - Code -> Source Control (GIT)
 - Tests (sasjs test, test data)
 - Documentation (sasjs doc + user / developer guides)
 ---
