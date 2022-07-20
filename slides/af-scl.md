@@ -71,9 +71,9 @@ _SAS App Migration, Modernisation & Manifestation_
 |Pain|Prognosis|
 |---|---|
 |Inertia|✅ _Propose vastly superior UX and lower maintenance costs_|
-|Resource Availability|✅ _Full code review followed by a series of carefully planned (and recorded) interviews to  result in very minimal customer impact_ |
+|Resource Availability|✅ _Code review + carefully planned (and recorded) interviews results in minimal customer impact_ |
 |Scope Uncertainty|✅  _Phase 0 estimation followed by regular production deliveries_|
-|House of Cards|✅ _Perform ENTIRE project delivery offsite with sample data_|
+|House of Cards|✅ _Deliver offsite with sample data_|
 
 <!--
 15-30 minute daily standups mandatory
@@ -103,11 +103,11 @@ offsite generally means MUCH faster iterations
 
 ## Preparation
 
-_To prepare a meaningful proposal, we need to know what we are proposing against!_
+_To prepare a meaningful proposal, we must know what we are proposing!_
 
- - Code scanning
- - Documentation review
- - Video interview
+ - Code scan
+ - Doc review
+ - Recorded interview
 ---
 ## Initial Proposal
 
@@ -174,9 +174,9 @@ _Working from inputs/outputs defined in SAS Service Header_
 ---
 # More Tools
 
-- [Data Controller](https://datacontroller.io) - swiss army knife of controlled data capture
+- [Data Controller](https://datacontroller.io) - business data capture
 - [SASjs Seed Apps](https://github.com/search?q=topic%3Asasjs-seed-app+org%3Asasjs+fork%3Atrue) - rapid project initiation
-- [SASjs Server](https://server.sasjs.io) - test frontend in pipeline, work offline, mocked services
+- [SASjs Server](https://server.sasjs.io) - pipeline tests, mocked services
 
 ---
 
@@ -231,14 +231,6 @@ _Continuously delivered - NOT at the end of the project_
 - [`sasjs test`](https://cli.sasjs.io/test)
 - JS specs
 - Cypress (interface tests)
--
-- [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
-- [Developer Guide](https://sasjs.github.io/docs/#/developer-guide/developer-overview)
-- [SAS Docs](https://core.sasjs.io/) (doxygen / sasjs doc)
-- [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
-
-
-
 
 ---
 # Resources
