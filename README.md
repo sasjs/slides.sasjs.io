@@ -1,5 +1,3 @@
-# Slides
-
 Available decks:
 
 * [AF/SCL Modernisation Approach](https://slides.sasjs.io/af-scl)

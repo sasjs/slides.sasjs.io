@@ -80,10 +80,10 @@ _[SAS App](https://sasapps.io) Migration, Modernisation & Manifestation_
 
 |Topic|Prognosis|
 |---|---|
-|Inertia|✅ _Vastly superior UX and lower maintenance costs_|
-|Resource Availability|✅ _Code review + carefully planned interviews for minimal customer impact_ |
-|Scope Uncertainty|✅  _Phase 0 estimation followed by regular production deliveries_|
-|House of Cards|✅ _Deliver offsite with sample data_|
+|Inertia|✅ _Vastly superior UX and lower maintenance / upgrade costs_|
+|Resource Availability|✅ _Code review + carefully planned video interviews for minimal customer impact_ |
+|Scope Uncertainty|✅  _Phase 0 estimation followed by regular (functional) production deliveries_|
+|House of Cards|✅ _Deliver **offsite** with sample data_|
 
 <!--
 15-30 minute daily standups mandatory
@@ -97,83 +97,6 @@ offsite generally means MUCH faster iterations
 🎯 Business WANTS the upgrade
 🎯 IT support for regular deployments
 🎯 Internal champion(s) on daily calls & milestones
-
-
----
-# Project Approach
-
-- Preparation (pre-sales)
-- Initial Proposal (pre-sales)
-- Phase 0 (estimates and initial interface)
-- Phase 1-N (milestones with 1 week accept or explain)
-- Testing & Warranty (X days over X months)
-- Support / SLA Proposal (IF preferred vendor)
-
----
-
-## Preparation
-
-_To prepare a meaningful proposal, we must know what we are proposing!_
-
- - Code scan
- - Doc review
- - Recorded interview
----
-## Initial Proposal
-
- - Vendor Neutral (open source)
- - Tailored to Customer (preparation stage)
- - Full Details of:
-   - Delivery Team
-   - SASjs Framework
-   - Project Approach
----
-
-## Phase 0
-
-_Don't trust - verify (applies both ways). 1-2 weeks depending on project size._
-
- - Detailed Plan + Estimates + ARIaD
- - Environment setup (driven from GIT repo)
- - Basic Interface with integrated docs
- - Initial services, tests, ci/cid
-
- ---
-
-## Subsequent Phases - Functional
-
- - Daily Calls
- - Deliver early, deliver often
- - Documentation (user, admin guides)
- - End of Phase demonstration
-
----
-## Subsequent Phases - Backend
-
-- SCL elimination
-  - SAS Jobs & Web Services (STP / JES)
-  - SCL Transcoding where necessary
-- Catalog elimination
-  - SLISTs -> Database
-  - Code -> Source Control (GIT)
-- Tests (sasjs test, test data)
-- Documentation (sasjs doc + user / developer guides)
----
-## Subsequent Phases - Frontend
-
-_Working from inputs/outputs defined in SAS Service Header_
-
-- Tests (specs + cypress)
-- Documentation (TypeDoc + Developer docs)
-- Accessibility Requirements
-
----
-## Testing & Warranty
-
-- Customer Satisfaction Insurance
-- Deployment & Training
-- Support
----
 
 # SASjs Tools
 
@@ -220,6 +143,83 @@ _Working from inputs/outputs defined in SAS Service Header_
 ## After / Before
 
 ![bg right:79% height:600](../img/sasaf8.png)
+
+
+---
+# Project Approach
+
+- Preparation (pre-sales)
+- Initial Proposal (pre-sales)
+- Phase 0 (estimates and initial interface)
+- Phase 1-N (milestone deliveries)
+- Testing & Warranty (X days over X months)
+- Support / SLA Proposal (IF preferred vendor)
+
+---
+
+## Preparation
+
+_To prepare a meaningful proposal, we must know what we are proposing!_
+
+ - Scan code + logs
+ - Review docs + process notes
+ - 1 or 2 Recorded Interviews
+---
+## Initial Proposal
+
+ - Vendor Neutral - make clear that customer or ANY vendor can maintain, no lock-in
+ - Tailored to Customer (preparation stage)
+ - Full Details of:
+   - Delivery Team
+   - SASjs Framework
+   - Project Approach
+---
+
+## Phase 0
+
+_Duration - 1 or 2 weeks depending on project size.  Outcome - a document, plus a basic app that can be immediately deployed._
+
+ - Detailed Plan + Estimates + ARIaD
+ - Environment setup (driven from GIT repo)
+ - Basic Interface with integrated docs
+ - Initial services, tests, ci/cid
+
+ ---
+
+## Subsequent Phases - Functional
+
+ - Daily Calls
+ - Deliver early, deliver often
+ - Documentation (user, admin guides)
+ - End of Phase demonstration
+
+---
+## Subsequent Phases - Backend
+
+- SCL elimination
+  - Stateless SAS Jobs & Web Services (STP / JES)
+  - SCL Transcoding where necessary
+- Catalog elimination
+  - SLISTs -> Database
+  - Code -> Source Control (GIT)
+- Tests (sasjs test, test data)
+- Documentation (sasjs doc + user / developer guides)
+---
+## Subsequent Phases - Frontend
+
+_Working from inputs/outputs defined in SAS Service Header_
+
+- Tests (specs + cypress)
+- Documentation (TypeDoc + Developer docs)
+- Accessibility Requirements
+
+---
+## Testing & Warranty
+
+- Customer Satisfaction Insurance
+- Deployment & Training
+- Support
+---
 
 ---
 # Documentation
