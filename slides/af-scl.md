@@ -32,9 +32,9 @@ _SAS App Migration, Modernisation & Manifestation_
 
 |Products|Services|Customers|
 |:---:|:---:|:---:|
-|SASjs - DevOps for SAS|SAS 9 SPWA Migration|Europe|
-|SASensei - 5000 players|AF/SCL + SAS IntrNet Modernisation|UK|
-|Data Controller for SAS|SAS App Development|Canada|
+|[SASjs](https://sasjs.io) - DevOps for SAS|SAS 9 SPWA Migration|Europe|
+|[SASensei](https://sasensei.com) - 5000 players|AF/SCL + SAS IntrNet Modernisation|UK|
+|[Data Controller for SAS](https://datacontroller.io)|SAS App Development|Canada|
 
 ---
 # AF/SCL

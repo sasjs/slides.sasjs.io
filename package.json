@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "all": "npm run 6min && npm run devops && npm run msug && npm run server",
+    "all": "npm run afscl && npm run 6min && npm run devops && npm run msug && npm run server",
     "afscl": "marp ./slides/af-scl.md -o ./af-scl/index.html --html=true",
     "6min": "marp ./slides/slides6min.md -o ./appdev/index.html --html=true",
     "devops": "marp ./slides/devops.md -o ./devops/index.html --html=true",
