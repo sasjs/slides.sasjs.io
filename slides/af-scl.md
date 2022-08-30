@@ -56,6 +56,12 @@ _[SAS App](https://sasapps.io) Migration, Modernisation & Manifestation_
 - Continuous Integration
 
 ---
+
+## SASjs Workflow
+
+![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+
+---
 # Pain / Gain
 
 | |Pain|Gain|
@@ -63,7 +69,6 @@ _[SAS App](https://sasapps.io) Migration, Modernisation & Manifestation_
 |SECURITY|End user identity, embedded passwords..|SASLogon, LDAP, SSO|
 |SCALABILITY|Messy, Manual, Desktop Deploys|CI/CD to cloud instance|
 |SUPPORT|Highly specialist, customer specific|Commodity Skill, Industry Standard Frameworks|
-
 
 ---
 # Project Objections
@@ -97,6 +102,8 @@ offsite generally means MUCH faster iterations
 🎯 Business WANTS the upgrade
 🎯 IT support for regular deployments
 🎯 Internal champion(s) on daily calls & milestones
+
+---
 
 # SASjs Tools
 
@@ -182,7 +189,7 @@ _Duration - 1 or 2 weeks depending on project size.  Outcome - a document, plus 
  - Detailed Plan + Estimates + ARIaD
  - Environment setup (driven from GIT repo)
  - Basic Interface with integrated docs
- - Initial services, tests, ci/cid
+ - Initial services, tests, CI/CD
 
  ---
 
@@ -213,13 +220,16 @@ _Working from inputs/outputs defined in SAS Service Header_
 - Documentation (TypeDoc + Developer docs)
 - Accessibility Requirements
 
----
-## Testing & Warranty
 
-- Customer Satisfaction Insurance
-- Deployment & Training
-- Support
+
 ---
+# Testing
+
+_Continuously delivered - NOT at the end of the project_
+
+- [`sasjs test`](https://cli.sasjs.io/test)
+- JS specs
+- Cypress (interface tests)
 
 ---
 # Documentation
@@ -232,16 +242,12 @@ _Continuously delivered - NOT at the end of the project_
 - [SAS Docs](https://core.sasjs.io/) (doxygen / sasjs doc)
 - [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
 
-
 ---
-# Testing
+## Testing & Warranty
 
-_Continuously delivered - NOT at the end of the project_
-
-- [`sasjs test`](https://cli.sasjs.io/test)
-- JS specs
-- Cypress (interface tests)
-
+- Customer Satisfaction Insurance
+- Deployment & Training
+- Support - https://sasapps.io/support
 ---
 # Resources
 
