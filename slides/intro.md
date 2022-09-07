@@ -34,7 +34,7 @@ npx @marp-team/marp-cli slides/intro.md -o intro/index.html --html=true
 
 # Why use SASjs?
 
-- Learn once, use everywhere
+- Open source - use everywhere
 - Faster iterations / time to value
 - Work locally with your preferred tools
 
@@ -135,7 +135,7 @@ _But - how to run a remote job with local macros???_
 ---
 ## Compilation Components
 
-_Targets are compiled by reference to the dependencies listed in the Doxygen header._
+_Targets are compiled by reference to the dependencies listed in the program header._
 
 - Artefacts: **Jobs, Services, Tests**
 - Dependencies: **Macros, Includes, Binary Files**
