@@ -5,7 +5,7 @@ backgroundColor: white
 auto-scaling: fittingHeader
 
 <!--
-npx @marp-team/marp-cli intro.md -o ../intro/index.html --html=true
+npx @marp-team/marp-cli slides/intro.md -o intro/index.html --html=true
 -->
 
 
