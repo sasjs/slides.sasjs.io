@@ -18,7 +18,7 @@ npx @marp-team/marp-cli intro.md -o ../intro/index.html --html=true
 
 ---
 
-<!-- header: ![h:6em align:right](../img/sasjs-50px.png) -->
+<!-- header: ![h:5em align:right](../img/sasjs-50px.png) -->
 
 # Challenges with Traditional SAS Project
 
@@ -34,7 +34,7 @@ npx @marp-team/marp-cli intro.md -o ../intro/index.html --html=true
 
 # Why use SASjs?
 
-- Learn once, use anywhere
+- Learn once, use everywhere
 - Faster iterations / time to value
 - Work locally with your preferred tools / IDE
 
@@ -46,20 +46,9 @@ npx @marp-team/marp-cli intro.md -o ../intro/index.html --html=true
 
 ---
 
-# Features
-
-- Generate docs from program headers (`sasjs doc`)
-- Test Jobs, Services & Macros (`sasjs test`)
-- Execute arbitrary code (`sasjs run`)
-- Deploy Jobs, Services & Tests (`sasjs cbd`)
-
-*Many more commands available - see [docs](https://cli.sasjs.io)*
-
----
-
 # What is SASjs?
 
-1. An Opinionated Approach - _which led to the development of:_
+1. An Opinionated Approach for SAS Solution Delivery
 2. A Collection of Tools
     - [@sasjs/cli](https://github.com/sasjs/cli) - CI/CD and Automated Deployment
     - [@sasjs/core](https://github.com/sasjs/core) - Macro library
@@ -73,19 +62,6 @@ npx @marp-team/marp-cli intro.md -o ../intro/index.html --html=true
 ## SASjs Workflow
 
 ![height:570px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
-
----
-# 🎯 SASjs Target 🎯
-
-*A location on a SAS server*
-
-Core attributes:
-
- - `name` > Alias for SASjs commands, eg: `sasjs deploy -t dev3`
- - `serverUrl` > Protocol + Host + Port
- - `serverType` > either `SASVIYA`, `SAS9` or `SASJS`
- - `appLoc` > Root deployment folder in SAS Drive or Metadata
-
 
  ---
 
@@ -126,26 +102,26 @@ Core attributes:
  - Complete visibility of what is being developed
 
 ---
-# Pre Requisites
+## SASjs Config File
 
-<style scoped>
-section img {
-    border-style: solid
-}
-</style>
-|Required|Recommended|Recommended|
-|---|---|---|
-|![vertical height:200 opacity:100% border-style:solid](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)|![vertical height:200 opacity:100%](https://www.tmssoftware.com/images/visualstudiocodelogo.png)|![vertical height:200 opacity:100%](https://appuals.com/wp-content/uploads/2020/06/intro.jpg)
+Every SASjs Project has a `sasjs/sasjsconfig.json` file, for configuration of:
 
-To install the CLI:  `npm i -g @sasjs/cli`
+ - Location of Artefacts (+ Dependencies & Init/Term programs)
+ - Macro Variables
+ - Target attributes / connection settings
+
 
 ---
+# 🎯 SASjs Target 🎯
 
-# Core Features
+*A location on a SAS server*
 
-- `sasjs compile` > _Create self-contained Jobs, Services & Tests_
-- `sasjs build` > _Prepare deployment pack (JSON / SAS Program)_
-- `sasjs deploy` > _Send to the target location_
+Core attributes:
+
+ - `name` > Alias for SASjs commands, eg: `sasjs deploy -t dev3`
+ - `serverUrl` > Protocol + Host + Port
+ - `serverType` > either `SASVIYA`, `SAS9` or `SASJS`
+ - `appLoc` > Root deployment folder in SAS Drive or Metadata
 
 ---
 
@@ -155,15 +131,8 @@ To install the CLI:  `npm i -g @sasjs/cli`
 - `sasjs job execute` > _Run a Job_
 - `sasjs flow execute` > _Run a collection of Jobs_
 
----
+_But - how to run a remote job with local macros???_
 
-# Being a Responsible Developer
-
-- `sasjs test` > _Trigger one or more Tests_
-- `sasjs lint` > _Check Code Quality / Best Practices_
-- `sasjs doc` > _Doxygen Documentation (+ Lineage)_
-
-More commands at https://cli.sasjs.io
 
 ---
 ## Compilation - Scaffolding Consistency
@@ -179,16 +148,41 @@ _Targets are compiled by reference to the dependencies listed in the Doxygen hea
 - Dependencies: **Macros, Includes, Binary Files**
 - Optional Frontend - convert a web project into a [streaming app](https://sasapps.io/blog/).
 
+
 ---
-## SASjs Config File
 
-Every SASjs Project has a `sasjs/sasjsconfig.json` file, for configuration of:
+# `sasjs cbd`
 
- - Location of Artefacts (+ Dependencies & Init/Term programs)
- - Macro Variables
- - Target attributes / connection settings
+- `sasjs compile` > _Self-contained Jobs, Services & Tests_
+- `sasjs build` > _Deployment pack (JSON / SAS Program)_
+- `sasjs deploy` > _Send to target location_
+
+![height:700 bg right:45%](../img/cbd.svg)
 
 
+---
+
+# Being a Responsible Developer
+
+- `sasjs test` > _Trigger one or more Tests_
+- `sasjs lint` > _Check Code Quality / Best Practices_
+- `sasjs doc` > _Generate docs (+ lineage) from program headers_
+
+More commands at https://cli.sasjs.io
+
+---
+# CLI Pre-Requisites
+
+<style scoped>
+section img {
+    border-style: solid
+}
+</style>
+|Required|Recommended|Recommended|
+|---|---|---|
+|![vertical height:200 opacity:100% border-style:solid](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)|![vertical height:200 opacity:100%](https://www.tmssoftware.com/images/visualstudiocodelogo.png)|![vertical height:200 opacity:100%](https://appuals.com/wp-content/uploads/2020/06/intro.jpg)
+
+To install the CLI:  `npm i -g @sasjs/cli`
 
 ---
 # Demo
@@ -210,4 +204,3 @@ Every SASjs Project has a `sasjs/sasjsconfig.json` file, for configuration of:
 - https://cli.sasjs.io
 - https://sasapps.io
 
----
