@@ -20,7 +20,7 @@ npx @marp-team/marp-cli slides/intro.md -o intro/index.html --html=true
 
 <!-- header: ![h:5em align:right](../img/sasjs-50px.png) -->
 
-# Challenges with Traditional SAS Project
+# Challenges with Traditional SAS Projects
 
 - Scattered Artefacts > _Hard to navigate - changes are lost_
 - Shared Environment > _Edits affect everyone_
@@ -36,7 +36,7 @@ npx @marp-team/marp-cli slides/intro.md -o intro/index.html --html=true
 
 - Learn once, use everywhere
 - Faster iterations / time to value
-- Work locally with your preferred tools / IDE
+- Work locally with your preferred tools
 
 <!--
 * MIT licence, no restrictions.  Any version of SAS
@@ -76,13 +76,6 @@ npx @marp-team/marp-cli slides/intro.md -o intro/index.html --html=true
 
 ✅ Highly suitable where SAS Programming is involved
 ❌ Needs additional work for graphical artefacts (VA, Flows etc)
-
----
-# Why Do SAS Developers ❤️ It?
-
- - Use preferred IDE > _VS Code / Sublime / Vim_
- - Access to the terminal > _Shell scripts, Python_
- - Access to local applications > _GIT GUI / Doxygen_
 
 ---
 # Why Do SAS Admins ❤️ It?
