@@ -178,6 +178,16 @@ section img {
 To install the CLI:  `npm i -g @sasjs/cli`
 
 ---
+# Cloud Container
+
+For the workshop, we recommend https://gitpod.io (github codespaces is a good alternative option).
+
+All you need to do, is open the URL below, and log in with your existing github, gitlab, or bitbucket account.
+
+[https://gitpod.io/#/github.com/sasjs/template_jobs](https://gitpod.io/#/github.com/sasjs/template_jobs)
+
+
+---
 # Demo
 
 `sasjs create mydemo --template jobs`
