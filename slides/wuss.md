@@ -70,7 +70,7 @@ npx @marp-team/marp-cli slides/wuss.md -o wuss/index.html --html=true
 
 ## SASjs Workflow
 
-![height:570px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+![height:560px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
  ---
 
@@ -187,24 +187,15 @@ section img {
 To install the CLI:  `npm i -g @sasjs/cli`
 
 ---
-# Cloud Container
-
-For the workshop, we recommend https://gitpod.io (github codespaces is a good alternative option).
-
-All you need to do, is open the URL below, and log in with your existing github, gitlab, or bitbucket account.
-
-[https://gitpod.io/#/github.com/sasjs/template_jobs](https://gitpod.io/#/github.com/sasjs/template_jobs)
-
-
----
 # Demo
 
-`sasjs create mydemo --template jobs`
 `sasjs lint`
 `sasjs doc`
 `sasjs auth`
 `sasjs cbd`
 `sasjs test`
+`sasjs run`
+`sasjs job execute`
 
 ---
 
