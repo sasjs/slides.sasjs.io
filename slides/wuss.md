@@ -20,8 +20,8 @@ npx @marp-team/marp-cli slides/wuss.md -o wuss/index.html --html=true
 
 # Workshop Prep
 
-* Virtual Environment:  https://gitpod.io/#/github.com/sasjs/template_jobs
-* Chat Room: https://matrix.to/#/%23wuss:4gl.io
+- Virtual Environment:  https://gitpod.io/#/github.com/sasjs/template_jobs
+- Chat Room: https://matrix.to/#/%23wuss:4gl.io
 
 ---
 
