@@ -22,6 +22,8 @@ npx @marp-team/marp-cli slides/wuss.md -o wuss/index.html --html=true
 
 - Virtual Environment:  https://gitpod.io/#/github.com/sasjs/template_jobs
 - Chat Room: https://matrix.to/#/%23wuss:4gl.io
+- `serverUrl` (used later):  https://wuss.sasjs.io
+- Credentials:  `wussXX` / `wussXX` (XX to be allocated, between 10 and 50)
 
 ---
 
