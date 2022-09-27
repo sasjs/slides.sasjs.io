@@ -21,8 +21,12 @@ section {
 </style>
 
 # SASjs
-## DevOps for SAS
+## Build Apps on SAS
 ![ height:680px bg right:60%](../img/anakin-and-padme.jpeg)
+
+https://slides.sasjs.io/phuse
+
+[PDF](https://slides.sasjs.io/phuse/slides.pdf)
 
 
 ---
