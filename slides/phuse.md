@@ -10,9 +10,15 @@ npx @marp-team/marp-cli slides/phuse.md -o phuse.pdf
 
 -->
 
-
 ---
 <!-- header: ![h:8em align:right](../img/phuse.svg)![h:8em align:right](../img/sasjs-50px.png) -->
+
+<style>
+section {
+  /* change default font to Arial (or similar fallbacks) */
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
 
 # SASjs
 ## DevOps for SAS
@@ -64,7 +70,7 @@ npx @marp-team/marp-cli slides/phuse.md -o phuse.pdf
 
 ## SASjs Workflow
 
-![height:500px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+![height:490px bg right:70% ](https://i.imgur.com/gIYp5OG.png)
 
  ---
 
