@@ -72,9 +72,14 @@ https://slides.sasjs.io/phuse
 
 ---
 
-## SASjs Workflow
+## SASjs Developer Workflow
 
 ![height:490px bg right:70% ](https://i.imgur.com/gIYp5OG.png)
+
+---
+## SASjs vs Other Apps
+
+![height:600px bg right:70% ](../diagrams/deploy3.drawio.png)
 
  ---
 
