@@ -6,6 +6,8 @@ auto-scaling: fittingHeader
 
 <!--
 npx @marp-team/marp-cli slides/phuse.md -o phuse/index.html --html=true
+npx @marp-team/marp-cli slides/phuse.md -o phuse.pdf
+
 -->
 
 
@@ -62,7 +64,7 @@ npx @marp-team/marp-cli slides/phuse.md -o phuse/index.html --html=true
 
 ## SASjs Workflow
 
-![height:560px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+![height:500px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
  ---
 
@@ -151,7 +153,7 @@ _Targets are compiled by reference to the dependencies listed in the program hea
 - `sasjs build` > _Deployment pack (JSON / SAS Program)_
 - `sasjs deploy` > _Send to target location_
 
-![height:700 bg right:45%](../img/cbd.svg)
+![height:610 bg right:50%](../img/cbd.svg)
 
 
 ---

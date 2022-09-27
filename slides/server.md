@@ -23,6 +23,10 @@ auto-scaling: fittingHeader
 2. set up fresh dB
 3. launch sonic repo: https://gitpod.io/github.com/allanbowe/sonic
 4. launch core env:  https://gitpod.io/github.com/sasjs/core
+
+
+npx @marp-team/marp-cli ./slides/server.md -o ./server/index.html --html=true
+
 -->
 
 <!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->

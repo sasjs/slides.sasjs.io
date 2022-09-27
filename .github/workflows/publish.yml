@@ -12,23 +12,8 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
 
-      - name: 6 min slides
-        run: npx @marp-team/marp-cli ./slides/slides6min.md -o ./appdev/index.html --html=true
-        env:
-          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: DevOps slides
-        run: npx @marp-team/marp-cli ./slides/devops.md -o ./devops/index.html --html=true
-        env:
-          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: MSUG slides
-        run: npx @marp-team/marp-cli ./slides/msug.md -o ./msug/index.html --html=true
-        env:
-          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: SASjs Server slides
-        run: npx @marp-team/marp-cli ./slides/server.md -o ./server/index.html --html=true
+      - name: Phuse PDF
+        run: npx @marp-team/marp-cli slides/phuse.md -o phuse/slides.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
 
