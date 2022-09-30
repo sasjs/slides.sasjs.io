@@ -4,6 +4,10 @@ paginate: true
 backgroundColor: white
 auto-scaling: fittingHeader
 
+<!--
+npx @marp-team/marp-cli slides/af-scl.md -o af-scl/index.html --html=true
+-->
+
 ---
 <script>
   var _paq = window._paq = window._paq || [];
@@ -104,7 +108,6 @@ offsite generally means MUCH faster iterations
 🎯 Internal champion(s) on daily calls & milestones
 
 ---
-
 # SASjs Tools
 
 - [sasjs/cli](https://github.com/sasjs/cli) - commands include `sasjs deploy`, `sasjs test` and `sasjs doc`
