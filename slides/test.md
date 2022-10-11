@@ -120,11 +120,11 @@ run;
 
 A number of ready made assertion macros are available in the SASjs [Core](https://core.sasjs.io) library:
 
-* [mp_assert](https://core.sasjs.io/mp__assert_8sas.html) - generic assertion
-* [mp_assertcols](https://core.sasjs.io/mp__assertcols_8sas.html) - Asserts the existence (or not) of certain columns
-* [mp_assertcolvals](https://core.sasjs.io/mp__assertcolvals_8sas.html) - Asserts the existence (or not) of particular column values
-* [mp_assertdsobs](https://core.sasjs.io/mp__assertdsobs_8sas.html) - Asserts the existence (or not) of dataset observations
-* [mp_assertscope](https://core.sasjs.io/mp__assertscope_8sas.html) - Compares before/after to detect scope leakage in a SAS Macro
+- [mp_assert](https://core.sasjs.io/mp__assert_8sas.html) - generic assertion
+- [mp_assertcols](https://core.sasjs.io/mp__assertcols_8sas.html) - Asserts the existence (or not) of certain columns
+- [mp_assertcolvals](https://core.sasjs.io/mp__assertcolvals_8sas.html) - Asserts the existence (or not) of particular column values
+- [mp_assertdsobs](https://core.sasjs.io/mp__assertdsobs_8sas.html) - Asserts the existence (or not) of dataset observations
+- [mp_assertscope](https://core.sasjs.io/mp__assertscope_8sas.html) - Compares before/after to detect scope leakage in a SAS Macro
 
 ---
 
@@ -185,11 +185,11 @@ Services & Tests are compiled with `%webout()` macros, for generating JSON in SA
 
 These items are bundled into each Primary Artefact when listed in the program header
 
-* SAS Macros
-* SAS Includes
-* Binary Files
-* initProgram
-* termProgram
+- SAS Macros
+- SAS Includes
+- Binary Files
+- initProgram
+- termProgram
 
 ---
 ## SASjs Config File
