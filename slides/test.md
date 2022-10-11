@@ -76,6 +76,77 @@ https://slides.sasjs.io/test
 
 ---
 
+# What is a SASjs Test?
+
+_A SAS program that performs one or more assertions_
+
+Filename pattern: `[filename].test<.integer>.sas`
+
+```
+some_service.test.sas
+some_job.test.0.sas
+some_job.test.1.sas
+```
+
+The test integer is optional. If provided, tests execute accordingly - eg `some_job.test.0.sas` before `some_job.test.1.sas`.
+
+---
+
+# Creating Tests
+
+---
+
+# Test Body
+
+
+An example of a test that provides a result:
+```sas
+data work.test_results;
+  test_description="some description";
+  test_result="PASS";
+  test_comments="We did this & that happened";
+  output;
+run;
+%webout(OPEN)
+%webout(OBJ, test_results)
+%webout(CLOSE)
+```
+
+---
+
+# Assertion Macros
+
+A number of ready made assertion macros are available in the SASjs [Core](https://core.sasjs.io) library:
+
+* [mp_assert](https://core.sasjs.io/mp__assert_8sas.html) - generic assertion
+* [mp_assertcols](https://core.sasjs.io/mp__assertcols_8sas.html) - Asserts the existence (or not) of certain columns
+* [mp_assertcolvals](https://core.sasjs.io/mp__assertcolvals_8sas.html) - Asserts the existence (or not) of particular column values
+* [mp_assertdsobs](https://core.sasjs.io/mp__assertdsobs_8sas.html) - Asserts the existence (or not) of dataset observations
+* [mp_assertscope](https://core.sasjs.io/mp__assertscope_8sas.html) - Compares before/after to detect scope leakage in a SAS Macro
+
+---
+
+# Test Coverage
+
+A SAS Service, Job or Macro is covered if there is a test with the same filename, eg:
+
+```
+├── some_service.sas
+├── some_service.test.sas
+├── some_job.sas
+└── some_macro.test.0.sas
+```
+
+In this example, `some_service.sas` is covered, `some_job.sas` is not covered, and `some_macro.test.0.sas` is a standalone test.
+
+Coverage is file level.  We have plans for line level - just need a sponsor!
+
+---
+
+# Deploying Tests
+
+---
+
 # SASjs Developer Workflow
 
 ![height:490px bg right:70% ](https://i.imgur.com/gIYp5OG.png)
@@ -152,6 +223,11 @@ Compile/Build/Deploy project to myTarget:  `sasjs cbd -t mytarget`
 
 ![height:610 bg right:50%](../img/cbd.svg)
 
+
+---
+
+# Running Tests
+
 ---
 # `sasjs test` Syntax
 
@@ -165,16 +241,7 @@ Execute all tests starting with "mv_" and save the output in 'myresults' folder
 
 `sasjs test mv_ --outDirectory /somedir/myresults`
 
----
 
-# Test Coverage
-
-* Jobs
-* Services
-* Macros
-* Standalone
-
-Coverage is determined at file level.  We have plans for line level coverage, just need a sponsor!
 
 ---
 

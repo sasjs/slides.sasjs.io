@@ -7,4 +7,5 @@ Available decks:
 * SASjs [Server](/server)
 * SASjs for [AppDev](/appdev)
 * SASjs for [Phuse](/phuse)
+* SASjs [Test](/test)
 
