@@ -20,7 +20,7 @@ section {
 </style>
 
 # `sasjs test`
-![ height:650px bg right:60%](../img/testmeme.jpeg)
+![ height:600px bg right:60%](../img/testmeme.jpeg)
 
 https://slides.sasjs.io/test
 
@@ -33,8 +33,8 @@ https://slides.sasjs.io/test
 # Why use SASjs?
 
 - Open Source (MIT) & Actively Developed
-- Faster iterations / time to value
 - Work locally with your preferred tools
+- Faster iterations / time to value
 
 <!--
 * MIT licence, no restrictions.  Any version of SAS
@@ -46,9 +46,11 @@ https://slides.sasjs.io/test
 
 # Why Write Tests?
 
- - Eliminate Time / Cost of Manual Testing
- - Avoid Regression from Code Changes
- - Documenting the Process
+ - Reduce Manual Testing
+ - Avoid Regression
+ - Documentation
+
+![ height:600px bg right:50%](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupdate.gci.org%2Fwp-content%2Fuploads%2F2013%2F02%2FComputer-Crash.jpg)
 
 
 ---
