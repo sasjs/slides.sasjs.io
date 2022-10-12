@@ -128,6 +128,13 @@ A number of ready made assertion macros are available in the SASjs [Core](https:
 
 ---
 
+# Examples of SASjs Tests
+
+* https://core.sasjs.io/dir_59425e443f801f1f2fd8bbe4959a3ccf.html
+* https://code.datacontroller.io/dir_14faff0c6f3b22df226aa27946e1ad45.html
+
+---
+
 # Test Coverage
 
 A SAS Service, Job or Macro is covered if there is a test with the same filename, eg:
