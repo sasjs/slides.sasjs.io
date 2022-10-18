@@ -110,6 +110,8 @@ _Plus many more_
 ![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
 ---
+
+<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
 # Rebuffals
 
 |Topic|Prognosis|
@@ -119,6 +121,7 @@ _Plus many more_
 |?? Scope|✅  _Phase 0 estimation followed by regular (functional) deliveries_|
 |House of Cards|✅ _Deliver **offsite** with sample data_|
 |It's not possible|✅ _Two Week Fixed Price POC_|
+|Cost|✅ _Code + Platform re-use makes for rapid rebuild_|
 <!--
 15-30 minute daily standups mandatory
 what use and what DON'T use
@@ -127,6 +130,7 @@ offsite generally means MUCH faster iterations
 
 
 ---
+<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
 # Project Approach
 
 - Preparation (pre-sales)
