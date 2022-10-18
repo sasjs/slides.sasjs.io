@@ -4,11 +4,12 @@ paginate: true
 backgroundColor: white
 auto-scaling: fittingHeader
 
+---
+
 <!--
 npx @marp-team/marp-cli slides/af-intro.md -o af-intro/index.html --html=true
 -->
 
----
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
