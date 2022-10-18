@@ -29,7 +29,7 @@ npx @marp-team/marp-cli slides/af-intro.md -o af-intro/index.html --html=true
 ![bg right:60% height:640](../img/sasaf1.png)
 
 ---
-<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
+<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
 # About 4GL Apps
 
 [SAS App](https://sasapps.io):
@@ -42,9 +42,9 @@ npx @marp-team/marp-cli slides/af-intro.md -o af-intro/index.html --html=true
 
 # Who We Are
 
-* Core Developers
-* Management
-* SASjs Partner Network
+- Core Developers
+- Management
+- SASjs Partner Network
 
 
 ![bg right:40% height:680](../img/us.png)
@@ -111,7 +111,6 @@ _Plus many more_
 
 ---
 
-<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
 # Rebuffals
 
 |Topic|Prognosis|
@@ -130,7 +129,7 @@ offsite generally means MUCH faster iterations
 
 
 ---
-<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
+
 # Project Approach
 
 - Preparation (pre-sales)
