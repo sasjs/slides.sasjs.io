@@ -30,7 +30,7 @@ npx @marp-team/marp-cli slides/af-intro.md -o af-intro/index.html --html=true
 ![bg right:60% height:640](../img/sasaf1.png)
 
 ---
-<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
+<!-- header: ![h:5em align:right](../img/4gl-logo2.png) -->
 # About 4GL Apps
 
 [SAS App](https://sasapps.io):
@@ -52,6 +52,9 @@ npx @marp-team/marp-cli slides/af-intro.md -o af-intro/index.html --html=true
 
 
 ---
+
+<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
+
 # Products
 
 |Data Controller for SAS®|SASensei|SASjs|
@@ -64,9 +67,9 @@ _Plus SCL Transcoding Kit_
 
 # Projects
 
-* 400 user AF/SCL modernisation, 8 months, Allianz
-* AF/SCL Data Management system, 8 months, UK Gov Dept
-* SOAP Interface to Viya, 3 weeks, Swedish Gov Dept
+- 400 user AF/SCL modernisation, 8 months, Allianz
+- AF/SCL Data Management system, 8 months, UK Gov Dept
+- SOAP Interface to Viya, 3 weeks, Swedish Gov Dept
 
 _Plus many more_
 
@@ -111,6 +114,21 @@ _Plus many more_
 ![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
 ---
+# Tools / Accelerators
+
+- SASjs [CLI](https://cli.sasjs.io) - automated [deployments](https://cli.sasjs.io/cbd), [docs](https://cli.sasjs.io/doc) and [tests](https://cli.sasjs.io/test)
+- SASjs [adapter](https://adapter.sasjs.io) - flavour-agnostic comms
+- SASjs [core](https://core.sasjs.io) - hundreds of macros for AppDev
+- SASjs [Seed Apps](https://github.com/search?q=topic%3Asasjs-seed-app+org%3Asasjs+fork%3Atrue&type=repositories)
+- SCL Transcoding Kit - re-use existing SCL logic
+
+---
+# SCL Kit
+## After / Before
+
+![bg right:79% height:600](../img/sasaf8.png)
+
+---
 
 # Rebuffals
 
@@ -120,8 +138,8 @@ _Plus many more_
 |Resource Availability|✅ _Code review + carefully planned video interviews for minimal customer impact_ |
 |?? Scope|✅  _Phase 0 estimation followed by regular (functional) deliveries_|
 |House of Cards|✅ _Deliver **offsite** with sample data_|
-|It's not possible|✅ _Two Week Fixed Price POC_|
-|Cost|✅ _Code + Platform re-use makes for rapid rebuild_|
+|It won't work|✅ _Two Week Fixed Price POC_|
+|Cost|✅ _Code + Platform re-use (+ SASjs) makes for rapid delivery_|
 <!--
 15-30 minute daily standups mandatory
 what use and what DON'T use
@@ -133,81 +151,14 @@ offsite generally means MUCH faster iterations
 
 # Project Approach
 
-- Preparation (pre-sales)
-- Initial Proposal (pre-sales)
-- Phase 0 (estimates and initial interface)
-- Phase 1-N (milestone deliveries)
+- Preparation (code/doc review, exploratory interviews)
+- Initial Proposal (as is, to be, rough estimates)
+- Phase 0 (confirm estimates, scope, initial env setup + interface)
+- Phase 1-N (functional deliveries + docs + tests with each milestone)
 - Testing & Warranty (X days over X months)
 - Support / SLA Proposal (IF preferred vendor)
 
----
 
-## Preparation
-
-_To prepare a meaningful proposal, we must know what we are proposing!_
-
- - Scan code + logs
- - Review docs + process notes
- - 1 or 2 Recorded Interviews
----
-## Initial Proposal
-
- - Vendor Neutral - make clear that customer or ANY vendor can maintain, no lock-in
- - Tailored to Customer (preparation stage)
- - Full Details of:
-   - Delivery Team
-   - SASjs Framework
-   - Project Approach
----
-
-## Phase 0
-
-_Duration - 1 or 2 weeks depending on project size.  Outcome - a document, plus a basic app that can be immediately deployed._
-
- - Detailed Plan + Estimates + ARIaD
- - Environment setup (driven from GIT repo)
- - Basic Interface with integrated docs
- - Initial services, tests, CI/CD
-
- ---
-
-## Subsequent Phases - Functional
-
- - Daily Calls
- - Deliver early, deliver often
- - Documentation (user, admin guides)
- - End of Phase demonstration
-
----
-## Subsequent Phases - Backend
-
-- SCL elimination
-  - Stateless SAS Jobs & Web Services (STP / JES)
-  - SCL Transcoding where necessary
-- Catalog elimination
-  - SLISTs -> Database
-  - Code -> Source Control (GIT)
-- Tests (sasjs test, test data)
-- Documentation (sasjs doc + user / developer guides)
----
-## Subsequent Phases - Frontend
-
-_Working from inputs/outputs defined in SAS Service Header_
-
-- Tests (specs + cypress)
-- Documentation (TypeDoc + Developer docs)
-- Accessibility Requirements
-
-
-
----
-# Testing
-
-_Continuously delivered - NOT at the end of the project_
-
-- [`sasjs test`](https://cli.sasjs.io/test)
-- JS specs
-- Cypress (interface tests)
 
 ---
 # Documentation
