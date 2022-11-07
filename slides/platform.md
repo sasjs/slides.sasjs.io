@@ -87,7 +87,7 @@ BYOL for SAS.  We support all major SAS platforms:
 
 In addition to Viya and/or regular SAS 9, we can also support pure SASjs Server deploys
 
-![align:right height:370](../img/platform.png)
+![align:right height:300](../img/platform.png)
 
 ---
 
