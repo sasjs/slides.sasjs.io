@@ -53,11 +53,11 @@ npx @marp-team/marp-cli ./slides/platform.md -o ./platform/index.html --html=tru
 
 # Customers
 
-* Allianz (Belgium)
-* Department of Work & Pensions (UK)
-* Siemens Healthineers (Germany)
-* Der Touristik / REWE (Germany)
-* SKR (Sweden)
+- Allianz (Belgium)
+- Department of Work & Pensions (UK)
+- Siemens Healthineers (Germany)
+- Der Touristik / REWE (Germany)
+- SKR (Sweden)
 
 ---
 
@@ -65,9 +65,9 @@ npx @marp-team/marp-cli ./slides/platform.md -o ./platform/index.html --html=tru
 
 BYOL for SAS.  We support all major SAS platforms:
 
-* Viya 3.5 or Viya 4
-* SAS 9 EBI on Linux
-* SASjs Server / Foundation-only
+- Viya 3.5 or Viya 4
+- SAS 9 EBI on Linux
+- SASjs Server / Foundation-only
 
 ---
 
