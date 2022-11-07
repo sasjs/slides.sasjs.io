@@ -44,9 +44,9 @@ npx @marp-team/marp-cli ./slides/platform.md -o ./platform/index.html --html=tru
 
 # Products
 
-- Data Controller for SAS® - for regulated industries
-- Sasensei - quiz game with 5000 SAS geeks
-- SASjs - DevOps / AppDev Framework
+- [Data Controller for SAS®](https://datacontroller.io) - for regulated industries
+- [Sasensei](https://sasensei.com) - quiz game with 5000 SAS geeks
+- [SASjs](https://github.com/sasjs) - DevOps / AppDev Framework
 
 
 ---
