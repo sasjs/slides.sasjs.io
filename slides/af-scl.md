@@ -154,6 +154,15 @@ offsite generally means MUCH faster iterations
 
 ![bg right:79% height:600](../img/sasaf8.png)
 
+---
+
+# SAS/FSP
+
+ - FSBROWSE: View one record at a time
+ - FSEDIT: Edit one record at a time
+ - FSVIEW: View or edit a table of data
+
+Much of the above functionality is available in [Data Controller for SAS®](https://datacontroller.io). The remaining parts are fairly trivial to build as standalone web apps.
 
 ---
 # Project Approach
