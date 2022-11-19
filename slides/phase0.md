@@ -35,6 +35,7 @@ npx @marp-team/marp-cli slides/phase0.md -o phase0/index.html --html=true
 3. Produce
 
 ---
+<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
 
 ## Preparation
 
@@ -47,6 +48,7 @@ _To prepare a meaningful proposal, we must know what we are proposing!_
 **⚠️ This activity requires internal support / resourcing ⚠️**
 
 ---
+
 ## Proposal
 
 _From here, to there_
