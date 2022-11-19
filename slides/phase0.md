@@ -44,6 +44,8 @@ _To prepare a meaningful proposal, we must know what we are proposing!_
  - Record interviews with users and key stakeholders
  - Capture requirements + what is NOT required
 
+**⚠️ This activity requires internal support / resourcing ⚠️**
+
 ---
 ## Proposal
 
@@ -52,6 +54,7 @@ _From here, to there_
  - Current & Proposed State
  - Detailed Plan, Phases + Estimates, ARIaD
  - SASjs Framework and Approach to Migration
+
 
 ---
 
