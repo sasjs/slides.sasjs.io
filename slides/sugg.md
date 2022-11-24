@@ -1,6 +1,5 @@
 ---
 marp: true
-theme: default
 paginate: true
 
 ---
@@ -20,13 +19,12 @@ paginate: true
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-
 <!-- header: ![h:11em](../img/sugg.jpeg)-->
 
 # SASjs - the DevOps Framework for SAS
 ## Allan Bowe
 
-![bg right:50% height:300](https://prod-assets.macro.cards/sponsers/images/000/000/043/medium/buildapps240x120.png?1586020587)
+![bg right:50% height:300](../img/sasjs_logo.png)
 
 ---
 <!-- header: ![h:5em](../img/sugg.jpeg)-->
@@ -60,11 +58,11 @@ paginate: true
 ---
 # 4GL Apps - Customers
 
-- Belgium (Allianz)
-- Germany (Der Touristik, Siemens Healthineers)
 - UK (Department of Work & Pensions, Lloyds List Intelligence)
-- Sweden (AFA, SKR)
+- Germany (Der Touristik, Siemens Healthineers)
 - US, Italy (SAS Institute)
+- Sweden (AFA, SKR)
+- Belgium (Allianz)
 - Denmark, Netherlands, and Canada in pipeline
 
 ---
