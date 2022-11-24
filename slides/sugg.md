@@ -3,7 +3,7 @@ marp: true
 paginate: true
 
 <!--
-npx @marp-team/marp-cli slides/sugg.md -o sugg/indexhtml
+npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
 -->
 ---
 
@@ -31,7 +31,7 @@ npx @marp-team/marp-cli slides/sugg.md -o sugg/indexhtml
 ![bg right:40% height:130](../img/4gl-logo2.png)
 
 - Data Controller for SAS
-- SASensei
+- SASensei ( https://4gl.uk -> win a T-shirt )
 - SASjs
 
 ---
@@ -107,7 +107,6 @@ npx @marp-team/marp-cli slides/sugg.md -o sugg/indexhtml
  - Ability to work on multiple features in parallel
  - Complete visibility of what is being developed
 
-
 ---
 
 ## SASjs Stats
@@ -136,14 +135,20 @@ npx @marp-team/marp-cli slides/sugg.md -o sugg/indexhtml
 - Documentation + Tests
 - Base SAS, Viya, Metadata, SASjs Server
 
+https://core.sasjs.io
+
 ---
 # SASjs Server
 
-_A Web Server and REST API for Base SAS_
+_A Web Server and REST API for Base SAS.  Can run in Desktop or Server mode_
 
 - SASjs Drive for content
 - SASjs Studio for code execution
 - SASjs AppStream for deployed Apps
+- Python, R, JS, SAS runtimes / Stored Programs
+- Multi-user auth, LDAP, Permissions, SSL, Load Balancing
+
+https://server.sasjs.io
 
 ---
 
@@ -154,7 +159,7 @@ _A Web Server and REST API for Base SAS_
 - Run SAS code & fetch log
 - Sync local/remote dirs
 - Includes sasjs/lint
-- Target Management
+- Target Manager
 
 ---
 
