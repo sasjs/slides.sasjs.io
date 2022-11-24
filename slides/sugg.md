@@ -2,23 +2,11 @@
 marp: true
 paginate: true
 
+<!--
+npx @marp-team/marp-cli slides/sugg.md -o sugg/indexhtml
+-->
 ---
-<script>
-/*
-  npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
-*/
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://analytics.4gl.io/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '10']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
+
 <!-- header: ![h:11em](../img/sugg.jpeg)-->
 
 # SASjs - the DevOps Framework for SAS
