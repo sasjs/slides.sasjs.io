@@ -4,7 +4,6 @@ theme: default
 paginate: true
 
 ---
-
 <script>
 /*
   npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
@@ -34,7 +33,7 @@ paginate: true
 
 # 4GL Apps - about
 
-![bg right:40% height:140](../img/4gl-logo2.png)
+![bg right:45% height:150](../img/4gl-logo2.png)
 
 - UK Company
 - SAS Subcontractor
@@ -43,7 +42,7 @@ paginate: true
 ---
 # 4GL Apps - Products
 
-![bg right:40% height:140](../img/4gl-logo2.png)
+![bg right:40% height:130](../img/4gl-logo2.png)
 
 - Data Controller for SAS
 - SASensei
@@ -52,9 +51,9 @@ paginate: true
 ---
 # 4GL Apps - Solutions
 
-![bg right:40% height:140](../img/4gl-logo2.png)
+![bg right:35% height:120](../img/4gl-logo2.png)
 
-- SAS App Modernisation (AF/SCL and SAS/Intrnet)
+- SAS App Modernisation (AF/SCL + SAS/Intrnet)
 - SAS App Migration (STP web apps to Viya)
 - SAS App Manifestation & Support
 
@@ -95,14 +94,6 @@ paginate: true
 
 ![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
----
-
-## SASjs Stats
-
-- 100% MIT open source
-- Over 55k downloads
-- ~ 20 contributors
-- 35 Repositories
 
 ---
 
@@ -131,6 +122,16 @@ paginate: true
  - Complete visibility of what is being developed
 
 
+---
+
+## SASjs Stats
+
+![height:500px bg right:63% ](../img/sasjs_feedback.png)
+
+- 100% MIT open source
+- Over 55k downloads
+- ~ 20 contributors
+- 35 Repositories
 ---
 
 # SASjs Framework
