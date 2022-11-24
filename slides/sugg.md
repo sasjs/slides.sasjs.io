@@ -5,11 +5,10 @@ paginate: true
 
 ---
 
-<!--
-npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
--->
-
 <script>
+/*
+  npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
+*/
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
@@ -22,6 +21,7 @@ npx @marp-team/marp-cli slides/sugg.md -o sugg/index.html
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+
 <!-- header: ![h:11em](../img/sugg.jpeg)-->
 
 # SASjs - the DevOps Framework for SAS
