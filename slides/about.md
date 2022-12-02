@@ -98,7 +98,7 @@ _Designed for Regulated Industries_
 
 - Eliminate entire Design/Dev/Test/Promote resource cost
 - Ingest 'invisible' data into SAS (silos, EUCs)
-- Apply Data Quality at source
+- Automatic Data Quality at source
 - Showcase Lineage (SAS9)
 ---
 
