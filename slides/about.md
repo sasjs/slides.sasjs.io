@@ -84,6 +84,50 @@ _Plus many more_
 
 # What is Data Controller?
 
+- Controlled Data Capture
+- Governance
+- Exploration
+
+_Designed for Regulated Industries_
+
+![bg right:50% height:700](../img/dc_dataflow.png)
+
+---
+
+# Why use Data Controller?
+
+- Eliminate entire Design/Dev/Test/Promote resource cost
+- Ingest previously 'invisible' data (silos, eucs)
+- Apply Data Quality at source
+- Showcase Lineage (SAS9)
+---
+
+# Data Controller Customers
+
+- Belgium: Allianz + 2 more insurers
+- Canada: Bank
+- Denmark: Bank
+- Germany: Siemens Healthineers, Der Touristik
+- Sweden: Insurer
+- UK: Goverment Dept
+
+Plus desktop users
+
+---
+
+# Data Controller Partners
+
+- Analytium (UK SAS Partner)
+- Notilyze (Netherlands SAS Partner)
+- Selerity (Australia SAS Partner)
+
+---
+
+# Where Data Controller is most useful:
+
+- Regulated Industries - require evidence for audit
+- Customer has DI Studio data lineage
+- Customer ingests excel data
 
 ---
 
@@ -117,17 +161,18 @@ _MIT open source / free for commercial use_
 
 <!-- build on current platform, deploy later to new -->
 
-
 ---
 
-# Why Do Project Leads ❤️ It?
+# Why use SASjs?
 
- - Rapid on-boarding
- - Work features in parallel
- - Visibility into deliverables
+- Maintain velocity as complexity ⬆
+- Faster, higher quality iterations
+- Rapid on-boarding 🧍🧍🧍
+- Tests & Documentation
 
-![ height:620px bg right:55%](../img/anakin-and-padme.jpeg)
 
+
+![ height:600px bg right:48%](../img/anakin-and-padme.jpeg)
 
 ---
 
