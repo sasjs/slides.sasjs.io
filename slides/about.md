@@ -97,7 +97,7 @@ _Designed for Regulated Industries_
 # Why use Data Controller?
 
 - Eliminate entire Design/Dev/Test/Promote resource cost
-- Ingest previously 'invisible' data (silos, eucs)
+- Ingest 'invisible' data into SAS (silos, EUCs)
 - Apply Data Quality at source
 - Showcase Lineage (SAS9)
 ---
@@ -175,6 +175,14 @@ _MIT open source / free for commercial use_
 
 ---
 
+# Where SASjs is most useful:
+
+- Delivering complex SAS solutions (programming based)
+- Integrating SAS with other technologies
+- Bespoke User Interface
+
+---
+
 
 # AF/SCL
 
@@ -183,3 +191,40 @@ _MIT open source / free for commercial use_
 - AF + SCL
 - Catalog Centric
 - Manual Deployment
+
+---
+
+# Modern Apps
+
+![bg right:60% height:350](../img/sasaf3.svg)
+
+- JS + SAS
+- GIT / DB Centric
+- Continuous Integration
+
+---
+
+## Phase 0 - Estimate + Initial Interface
+
+![bg right:60% height:640](../img/sasaf1.png)
+
+1. Prepare
+2. Propose
+3. Produce
+
+_Fixed Price, 2 weeks_
+_Entirely Offsite_
+
+
+---
+
+# Resources
+
+- https://sasjs.io/resources
+- https://datacontroller.io
+- https://github.com/sasjs
+- https://slides.sasjs.io
+- https://core.sasjs.io
+- https://cli.sasjs.io
+- https://sasapps.io
+
