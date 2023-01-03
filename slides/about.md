@@ -165,13 +165,13 @@ _MIT open source / free for commercial use_
 
 # Why use SASjs?
 
-- Maintain velocity as complexity ⬆
+- Maintain velocity as complexity increases
 - Faster, higher quality iterations
 - Rapid on-boarding 🧍🧍🧍
 - Tests & Documentation
 
 
-![ height:600px bg right:48%](../img/anakin-and-padme.jpeg)
+![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
 
 ---
 
@@ -179,7 +179,9 @@ _MIT open source / free for commercial use_
 
 - Delivering complex SAS solutions (programming based)
 - Integrating SAS with other technologies
-- Bespoke User Interface
+- Bespoke User Interfaces
+
+![ height:610px bg right:52%](../img/docpost.jpeg)
 
 ---
 
