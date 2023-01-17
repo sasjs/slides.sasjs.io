@@ -255,9 +255,9 @@ _Requires authentication - let's look at deployment first_
 
 # `sasjs cbd` (compile, build, deploy)
 
-* Run the same project on different server types
-* Eliminate need for physical directories (SASAUTOS)
-* Package frontend as streaming app
+- Run the same project on different server types
+- Eliminate need for physical directories (SASAUTOS)
+- Package frontend as streaming app
 
 _Demo - Mario_
 
@@ -268,9 +268,9 @@ _Demo - Mario_
 
 |Type|I/O|Returns|
 |---|---|---|
-|Job|Data Inputs / Outputs|Success / Error|
-|Service|Web Inputs / Outputs|JSON / Other Content Types|
-|Test|N/A|Pass / Fail Object|
+|**Job**|_Data Inputs / Outputs_|Success / Error|
+|**Service**|_Web Inputs / Outputs_|JSON / Other Content Types|
+|**Test**|_N/A_|Pass / Fail Object|
 
 Services & Tests are compiled with `%webout()` macros, for generating JSON in SASjs format.  See also: [https://cli.sasjs.io/artefacts/](https://cli.sasjs.io/artefacts/)
 
