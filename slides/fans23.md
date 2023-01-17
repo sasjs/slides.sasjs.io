@@ -31,7 +31,9 @@ npx @marp-team/marp-cli slides/fans23.md -o fans23/index.html --html=true
 ![bg left vertical height:170](../img/4gl-logo2.png)
 ![bg right vertical height:320](../img/allan.jpeg)
 
-
+_If I go too fast_:
+ - book me to present to your team
+ - visit [slides.sasjs.io](https://slides.sasjs.io/fans23)
 
 <!-- a bit about my background -->
 
@@ -50,7 +52,7 @@ npx @marp-team/marp-cli slides/fans23.md -o fans23/index.html --html=true
 
 
 ---
-# 4GL Apps - Services
+# Services
 
 ![bg right:40% height:380](https://sasapps.io/static/analytics-platform-ea8bd9675c0382091a2c329eb9383ad2.svg)
 
@@ -78,7 +80,7 @@ _Plus many more_
 
 |[Data Controller for SAS®](https://datacontroller.io)|[SASensei](https://sasensei.com)|[SASjs](https://github.com/sasjs)|
 |:---:|:---:|:---:|
-|[![h:280](../img/dc.png)](https://datacontroller.io)|[![h:280](../img/sasensei.png)](https://sasensei.com)|[![h:280](../img/sasjs.png)](https://sasjs.io)|
+|[![h:280](../img/dc.png)](https://datacontroller.io) <br>_Angular_|[![h:280](../img/sasensei.png)](https://sasensei.com)<br>_React_|[![h:280](../img/sasjs.png)](https://sasjs.io)<br>_Typescript_|
 
 _Plus SCL Transcoding Kit_
 
@@ -124,22 +126,31 @@ _Designed for Regulated Industries_
 - Modular vs Monolithic
 - Local vs Remote Development
 - IDE vs GUI
-- Source in GIT vs SAS
+
+Enables continuous deployment and test-driven, GIT-native development
 
 ---
-<!-- header: ![h:4em align:right](../img/sasjs_logo.png) -->
 
-# What is SASjs?
+# Why use SASjs?
 
-## A Collection of Tools
+- Maintain velocity as complexity increases
+- Faster, higher quality iterations
+- Rapid on-boarding 🧍🧍🧍
 
+![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
+
+---
+<!-- header: ![h:3em align:right](../img/sasjs_logo.png) -->
+
+# SASjs Tools
   - [@sasjs/cli](https://github.com/sasjs/cli) - automated [deployments](https://cli.sasjs.io/cbd) (CI/CD), [docs](https://cli.sasjs.io/doc) and [tests](https://cli.sasjs.io/test)
-  - [@sasjs/core](https://github.com/sasjs/core) - '00s of macros for AppDev
   - [@sasjs/vscode-extension](https://github.com/sasjs/adapter) - Battery Pack for VS Code
+  - [@sasjs/adapter](https://adapter.sasjs.io) - connectivity between client & SAS
+  - [@sasjs/core](https://github.com/sasjs/core) - '00s of macros for AppDev
+  - [@sasjs/lint](https://github.com/sasjs/lint) - quality check your SAS code
   - [@sasjs/server](https://server.sasjs.io) - build apps on Base SAS
-  - SASjs [Seed Apps](https://github.com/search?q=topic%3Asasjs-seed-app+org%3Asasjs+fork%3Atrue&type=repositories)
 
-_MIT open source / free for commercial use_
+  - SASjs [Seed Apps](https://github.com/search?q=topic%3Asasjs-seed-app+org%3Asasjs+fork%3Atrue&type=repositories)
 
 ---
 <!-- header: ![h:6em align:right](../img/sasjs_logo.png) -->
@@ -147,7 +158,7 @@ _MIT open source / free for commercial use_
 
 ![height:500px bg right:63% ](../img/sasjs_feedback.png)
 
-- Over 55k downloads
+- ~ 55k downloads
 - ~ 20 contributors
 - 35 Repositories
 
@@ -160,27 +171,61 @@ _MIT open source / free for commercial use_
 
 <!-- build on current platform, deploy later to new -->
 
----
-
-# Why use SASjs?
-
-- Maintain velocity as complexity increases
-- Faster, higher quality iterations
-- Rapid on-boarding 🧍🧍🧍
-- Tests & Documentation
-
-
-![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
 
 ---
+# SASjs Core
 
-# Where SASjs is most useful:
+- ~250 macros for application development
+- Documentation + Tests
+- Base SAS, Viya, Metadata, SASjs Server, FCMP, LUA
 
-- Delivering complex SAS solutions (programming based)
-- Integrating SAS with other technologies
-- Bespoke User Interfaces
+https://core.sasjs.io
+
+---
+# SASjs Server - Use Cases for Viya Apps
+
+- Portal for secure / organised frontend deployment
+- Create mocked services in JS, Python or R
+  - Build frontend / run pipelines without SAS
+- Build on Base SAS / Deploy to Viya
+
+https://server.sasjs.io
+
+---
+# SASjs Adapter
+
+## Authentication & Communication
+
+* Docs: https://adapter.sasjs.io
+* Demo: https://www.youtube.com/watch?v=WwGptgvSqSw&t=14s
+
+---
+
+# SASjs VS Code Extension
+
+**FOSS** - VS Codium and Theia support. Key Features:
+
+- Code Execution in all flavours of SAS
+- Code Documentation (`sasjs doc`)
+- Directory Synchronisation (`sasjs fs sync`)
+- Linting and Formatting (`sasjs lint`)
+
+---
+
+# `sasjs doc`
+
+- Doc-Site from SAS Headers
+- DoxyConfig Manager
+- Lineage
+
+_Both CLI and VS Code Extension_
 
 ![ height:610px bg right:52%](../img/docpost.jpeg)
+
+---
+
+# `sasjs lint`
+
 
 ---
 
