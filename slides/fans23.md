@@ -23,17 +23,19 @@ npx @marp-team/marp-cli slides/fans23.md -o fans23/index.html --html=true
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- header: ![h:10em align:right](../img/sasfans.svg) -->
+<!-- header: ![h:9em align:right](../img/sasfans.svg) -->
 
-# Modernising Legacy SAS Applications
+# Modernising SAS Apps
 
 
 ![bg left vertical height:170](../img/4gl-logo2.png)
 ![bg right vertical height:320](../img/allan.jpeg)
 
 _If I go too fast_:
- - book me to present to your team
+ - stop me
  - visit [slides.sasjs.io](https://slides.sasjs.io/fans23)
+ - book me to present to your team
+
 
 <!-- a bit about my background -->
 
@@ -185,19 +187,22 @@ https://core.sasjs.io
 # SASjs Server - Use Cases for Viya Apps
 
 - Portal for secure / organised frontend deployment
-- Create mocked services in JS, Python or R
-  - Build frontend / run pipelines without SAS
+- Create mocked Stored Programs in JS, Python or R
+  - Build frontend / run pipelines, where SAS unavailable
 - Build on Base SAS / Deploy to Viya
 
 https://server.sasjs.io
 
+<!--  _Open source Mid-Tier & REST API over Foundation SAS_
+LDAP, Permissions, Users & Groups, Stored Programs etc
+-->
 ---
 # SASjs Adapter
 
 ## Authentication & Communication
 
-* Docs: https://adapter.sasjs.io
-* Demo: https://www.youtube.com/watch?v=WwGptgvSqSw&t=14s
+- Docs: https://adapter.sasjs.io
+- Demo: https://www.youtube.com/watch?v=WwGptgvSqSw&t=14s
 
 ---
 
@@ -222,45 +227,117 @@ _Both CLI and VS Code Extension_
 
 ![ height:610px bg right:52%](../img/docpost.jpeg)
 
+Demo: [xieliaing](https://github.com/xieliaing/SAS) and jobs (for lineage)
+
 ---
 
 # `sasjs lint`
 
+- Configurable severity level (ERROR / WARNING)
+- Use in GIT HOOK or pipeline
+- 16 rules / settings and counting
+
+_Both CLI and VS Code Extension_
+
+Demo: jobs
+
 
 ---
 
+# SASjs CLI - Execution
 
-# AF/SCL
+- `sasjs run` > _Execute arbitrary SAS code_
+- `sasjs job execute` > _Run a Job_
+- `sasjs flow execute` > _Run a collection of Jobs_
 
-![bg right:60% height:640](../img/sasaf2.svg)
-
-- AF + SCL
-- Catalog Centric
-- Manual Deployment
-
----
-
-# Modern Apps
-
-![bg right:60% height:350](../img/sasaf3.svg)
-
-- JS + SAS
-- GIT / DB Centric
-- Continuous Integration
+_Requires authentication - let's look at deployment first_
 
 ---
 
-## Phase 0 - Estimate + Initial Interface
+# `sasjs cbd` (compile, build, deploy)
 
-![bg right:60% height:640](../img/sasaf1.png)
+* Run the same project on different server types
+* Eliminate need for physical directories (SASAUTOS)
+* Package frontend as streaming app
 
-1. Prepare
-2. Propose
-3. Produce
+_Demo - Mario_
 
-_Fixed Price, 2 weeks_
-_Entirely Offsite_
+---
+<!-- header: ![h:5em align:right](../img/sasjs_logo.png) -->
 
+# SASjs Primary Artefacts
+
+|Type|I/O|Returns|
+|---|---|---|
+|Job|Data Inputs / Outputs|Success / Error|
+|Service|Web Inputs / Outputs|JSON / Other Content Types|
+|Test|N/A|Pass / Fail Object|
+
+Services & Tests are compiled with `%webout()` macros, for generating JSON in SASjs format.  See also: [https://cli.sasjs.io/artefacts/](https://cli.sasjs.io/artefacts/)
+
+---
+
+# SASjs Secondary Artefacts
+
+These items are bundled into each Primary Artefact when listed in the program header:
+
+- **SAS Macros** - one macro per file, lowercase filenames
+- **SAS Includes** - arbitrary sas code, formats, lua, etc
+- **Binary Files** - excel, pdf, images, mp3, mp4
+- **initProgram** - executes before the Job / Service / Test
+- **termProgram** - executes after the Job / Service / Test
+
+---
+## SASjs Config File
+
+Every SASjs Project has a `sasjs/sasjsconfig.json` file, for configuration of:
+
+ - Primary / Secondary Artefact folders
+ - Macro Variables
+ - Target attributes / connection settings
+
+
+---
+# 🎯 SASjs Target 🎯
+
+*A location on a SAS server*
+
+Core attributes:
+
+ - `name` > Alias for SASjs commands, eg: `sasjs deploy -t dev3`
+ - `serverUrl` > Protocol + Host + Port
+ - `serverType` > either `SASVIYA`, `SAS9` or `SASJS`
+ - `appLoc` > Root deployment folder in SAS Drive or Metadata
+
+---
+
+# `sasjs cbd` Syntax
+
+- `sasjs compile`: _Self-contained Jobs, Services, Tests_
+- `sasjs build`: _Deployment pack (JSON / SAS Program)_
+- `sasjs deploy`: _Send to target_
+
+Compile/Build/Deploy project to myTarget:  `sasjs cbd -t mytarget`
+
+![height:610 bg right:50%](../img/cbd.svg)
+
+
+---
+
+# Running Tests
+
+---
+# `sasjs test` Syntax
+
+Execute all tests (default target): `sasjs test`
+
+Execute tests in "macros" folder: `sasjs test /macros/`
+
+Prevent pipeline fail: `sasjs test --ignoreFail`
+
+Execute all tests starting with "mv_" and save the output in 'myresults' folder
+
+`sasjs test mv_ --outDirectory /somedir/myresults`
 
 ---
 
@@ -274,3 +351,11 @@ _Entirely Offsite_
 - https://cli.sasjs.io
 - https://sasapps.io
 
+---
+
+# Contact
+
+📅 https://4gl.io/cal
+💬 https://4gl.io/chat
+🎺 https://4gl.io/social
+🔗 https://www.linkedin.com/in/allanbowe
