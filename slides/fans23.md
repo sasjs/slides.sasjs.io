@@ -25,8 +25,7 @@ npx @marp-team/marp-cli slides/fans23.md -o fans23/index.html --html=true
 </script>
 <!-- header: ![h:9em align:right](../img/sasfans.svg) -->
 
-# Modernising SAS Apps
-
+# Modernising Legacy SAS Applications
 
 ![bg left vertical height:170](../img/4gl-logo2.png)
 ![bg right vertical height:320](../img/allan.jpeg)
