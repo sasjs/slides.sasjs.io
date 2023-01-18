@@ -177,11 +177,6 @@ Enables continuous deployment and test-driven, GIT-native development
 - ~ 20 contributors
 - 35 Repositories
 
-
-
-<!-- build on current platform, deploy later to new -->
-
-
 ---
 # SASjs Core
 
@@ -268,7 +263,7 @@ _Requires authentication - let's look at deployment first_
 - Eliminate need for physical directories (SASAUTOS)
 - Package frontend as streaming app
 
-_Demo - Mario_
+_Demo - Mario, React_
 
 ---
 <!-- header: ![h:5em align:right](../img/sasjs_logo.png) -->
@@ -290,8 +285,8 @@ Services & Tests are compiled with `%webout()` macros, for generating JSON in SA
 These items are bundled into each Primary Artefact when listed in the program header:
 
 - **SAS Macros** - one macro per file, lowercase filenames
-- **SAS Includes** - arbitrary sas code, formats, lua, etc
-- **Binary Files** - excel, pdf, images, mp3, mp4
+- **SAS Includes** - sas snippets, fcmp, lua, datalines, ddl etc
+- **Binary Files** - excel, pdf, images, mp3, mp4, zip
 - **initProgram** - executes before the Job / Service / Test
 - **termProgram** - executes after the Job / Service / Test
 
