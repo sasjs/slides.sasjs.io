@@ -62,6 +62,10 @@ _If I go too fast_:
 - Manifestation
 - Support
 
+<!--
+  How we do it, replace frontend, re-use backend as stateless services
+-->
+
 ---
 
 # Projects
@@ -72,6 +76,10 @@ _If I go too fast_:
 - SOAP Interface to Viya, 3 weeks, SKR (Sweden)
 
 _Plus many more_
+
+<!--
+Each project has improved SASjs and Data Controller
+-->
 
 ---
 
@@ -112,9 +120,10 @@ _Designed for Regulated Industries_
 
 # Data Controller Demo
 
-- Editing
+- Editing (tables, format catalogs, datasets)
 - SAS Logs
-- Docs
+- Docs - https://docs.datacontroller.io
+- Code - https://code.datacontroller.io
 
 
 ---
