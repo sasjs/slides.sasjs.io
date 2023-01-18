@@ -120,6 +120,21 @@ _Designed for Regulated Industries_
 ---
 <!-- header: ![h:4em align:right](../img/sasjs_logo.png) -->
 
+# SASjs
+
+## The DevOps Framework for SAS Apps
+
+---
+# Why use SASjs?
+
+- Maintain velocity as complexity increases
+- Faster, higher quality iterations
+- Rapid on-boarding 🧍🧍🧍
+
+![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
+
+---
+
 # What is SASjs?
 
 ## An Opinionated Approach to SAS Solution Development
@@ -130,15 +145,14 @@ _Designed for Regulated Industries_
 
 Enables continuous deployment and test-driven, GIT-native development
 
+
+
 ---
 
-# Why use SASjs?
+## SASjs Workflow
 
-- Maintain velocity as complexity increases
-- Faster, higher quality iterations
-- Rapid on-boarding 🧍🧍🧍
 
-![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
+![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
 ---
 <!-- header: ![h:3em align:right](../img/sasjs_logo.png) -->
@@ -163,12 +177,7 @@ Enables continuous deployment and test-driven, GIT-native development
 - ~ 20 contributors
 - 35 Repositories
 
----
 
-## SASjs Workflow
-
-
-![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
 
 <!-- build on current platform, deploy later to new -->
 
