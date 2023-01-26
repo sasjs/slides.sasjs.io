@@ -1,6 +1,7 @@
 Available decks:
 
 * [About 4GL](/about)
+* [AF](https://slides.sasjs.io/af)
 * [AF/SCL Modernisation Approach](https://slides.sasjs.io/af-scl)
 * Legacy SAS Apps for [FANS](/fans23), 2023-01-18
 * DevOps for [MSUG](/msug)
@@ -12,3 +13,4 @@ Available decks:
 * SASjs for [Phuse](/phuse)
 * SASjs [Test](/test)
 
+[source](https://github.com/sasjs/slides.sasjs.io)

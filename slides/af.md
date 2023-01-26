@@ -43,8 +43,8 @@ _We help SAS customers migrate, modernise & manifest [SAS Apps](https://sasapps.
 
 _Enabled a cloud SAS migration through redevelopment of 400 user AF/SCL application used for Financial Modelling, Reporting, and Claims Triangles_
 
-* Team: 1 backend (SAS), 2 Frontend (Angular)
-* Duration: 8 months
+- Team: 1 backend (SAS), 2 Frontend (Angular)
+- Duration: 8 months
 
 ---
 
@@ -54,8 +54,8 @@ _Enabled a cloud SAS migration through redevelopment of 400 user AF/SCL applicat
 
 _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, transformation / modelling, and publishing of survey / census data._
 
-* Team: 1.5 backend (SAS), 1.5 Frontend (React + Angular)
-* Duration: 6 months
+- Team: 1.5 backend (SAS), 1.5 Frontend (React + Angular)
+- Duration: 6 months
 
 ---
 
