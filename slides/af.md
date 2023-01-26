@@ -84,7 +84,7 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 |Topic|Suffering|Prognosis|
 |---|---|---|
 |Inertia|❌ _App worked fine for decades. Why change it?_|✅ _Vastly superior UX and lower maintenance / upgrade costs_|
-|Resource Availability|❌ _We're all super busy and the developer quit in 2003. Documentation? Ha!_|✅ _Code review + carefully planned video interviews for minimal customer impact_ |
+|Resource Availability|❌ _We're all super busy and the developer quit in 1999._|✅ _Code review + carefully planned video interviews for minimal customer impact_ |
 
 
 ---
@@ -93,7 +93,7 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 
 |Topic|Suffering|Prognosis|
 |---|---|---|
-|Scope Uncertainty|❌ _There's so much complexity, this will cost 💰💰💰 and take ⏱️⏱️⏱️_|✅  _Phase 0 estimation + regular (functional) deliveries_|
+|Scope Uncertainty|❌ _The complexity will cost us 💰💰💰 and take ⏱️⏱️⏱️_|✅  _Phase 0 estimation + regular (functional) deliveries_|
 |House of Cards|❌ _Our data is sensitive, our infrastructure is brittle - systems access is difficult to obtain_|✅ _Deliver **offsite** with sample data, deploy onsite to new environment_|
 
 ---
