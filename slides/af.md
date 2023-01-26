@@ -93,8 +93,8 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 
 |Topic|Suffering|Prognosis|
 |---|---|---|
-|Scope Uncertainty|❌ _Theres so much code & complexity, this project will cost $$$ and take forever_|✅  _Phase 0 estimation + regular (functional) deliveries_|
-|House of Cards|❌ _Our data is sensitive, and our infrastructure brittle - systems access is also super difficult to obtain_|✅ _Deliver **offsite** with sample data, deploy onsite to new environment_|
+|Scope Uncertainty|❌ _There's so much complexity, this will cost 💰💰💰 and take ⏱️⏱️⏱️_|✅  _Phase 0 estimation + regular (functional) deliveries_|
+|House of Cards|❌ _Our data is sensitive, our infrastructure is brittle - systems access is difficult to obtain_|✅ _Deliver **offsite** with sample data, deploy onsite to new environment_|
 
 ---
 
