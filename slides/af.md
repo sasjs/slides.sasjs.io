@@ -100,12 +100,38 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 
 # 4GL Apps Project Approach
 
+- PreSales
+- Delivery
+- Aftercare
+
+---
+
+# 4GL Apps Project Approach
+
+## PreSales
+
 - Preparation (code/doc review, exploratory interviews)
 - Initial Proposal (as is, to be, rough estimates)
+
+---
+
+# 4GL Apps Project Approach
+
+## Delivery
+
 - Phase 0 (confirm estimates, scope, initial env setup + interface, fixed price)
 - Phase 1-N (functional deliveries + docs + tests with each milestone)
+
+---
+
+# 4GL Apps Project Approach
+
+## Aftercare
+
 - Testing & Warranty (X days over X months)
-- Support / SLA Proposal (IF preferred vendor)
+- Training
+- Ongoing Support & Maintenance (IF preferred vendor)
+  - https://sasapps.io/support
 
 ---
 # Documentation
@@ -118,13 +144,6 @@ _Continuously delivered - NOT at the end of the project_
 - [SAS Docs](https://core.sasjs.io/) (SASjsDoc)
 - [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
 
----
-
-## Testing & Warranty
-
-- Customer Satisfaction Insurance
-- Deployment & Training
-- Support - https://sasapps.io/support
 
 ---
 
@@ -142,6 +161,7 @@ A user-friendly, accessible, modern UI that can:
 
 - SASjs (DevOps for SAS)
 - Data Controller (controlled data ingestion)
+  - Resulted in a 30% cost saving (~3 months) on DWP project
 - SCL Transcoding Kit (re-use of SCL logic, where necessary)
 
 
