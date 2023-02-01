@@ -173,11 +173,12 @@ https://server.sasjs.io
 
 ---
 
-# Allan Bowe, Chief SAS App Officer
+# Allan Bowe
 
-📅 https://4gl.uk/book
-💬 https://matrix.to/#/@allan:4gl.io
-🔗 https://www.linkedin.com/in/allanbowe/
+📅 https://4gl.io/cal
+💬 https://4gl.io/chat
+🎺 https://4gl.io/social
+🔗 https://www.linkedin.com/in/allanbowe
 
 
 
