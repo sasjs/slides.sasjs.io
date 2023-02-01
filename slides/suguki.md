@@ -47,9 +47,9 @@ npx @marp-team/marp-cli slides/suguki.md -o suguki/index.html
 
 # Challenges with Traditional SAS Solutions
 
-- Code Management > _Source control, solution navigation_
-- Shared Environment > _Edits affect everyone_
-- Deployment > _Often manual and bespoke per solution_
+- Code Management > _Source control, solution navigation, testing approach_
+- Shared Environment > _Edits affect everyone, branching is complicated_
+- Deployment > _Often manual and bespoke for each solution_
 
 <br>
 
@@ -157,7 +157,7 @@ https://server.sasjs.io
 
 ---
 
-# SASjs CLI - Extra Goodies
+# SASjs CLI - Quality Control
 
 - `sasjs lint` -> capture SAS coding issues prior to `git push`
 - `sasjs doc` -> generate HTML docs for an entire SAS project
