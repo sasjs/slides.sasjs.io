@@ -151,9 +151,9 @@ https://server.sasjs.io
 # SASjs CLI - Deployment
 
 - `sasjs cbd` > _Compile, Build, & Deploy_
-  * Compiled Jobs / Services / Tests
-  * Freeform Logical Content (`syncFolder` path)
-  * Freeform Physical Content (`syncDirectories` array)
+  - Compiled Jobs / Services / Tests
+  - Freeform Logical Content (`syncFolder` path)
+  - Freeform Physical Content (`syncDirectories` array)
 
 ---
 
