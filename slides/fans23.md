@@ -201,7 +201,7 @@ A user-friendly, accessible, modern UI that can:
 
 ---
 
-<header style="text-align: right">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SCLssssssssssssssssssssssssss </header>
+<header style="text-align: right">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SCL</header>
 
 # SCL Kit
 ## Functions
