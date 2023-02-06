@@ -93,8 +93,156 @@ Each project has improved SASjs and Data Controller
 
 _Plus SCL Transcoding Kit_
 
+
 ---
 
+# AF/SCL Apps
+
+![bg right:60% height:640](../img/sasaf2.svg)
+
+❌ AF + SCL
+❌ Catalog Centric
+❌ Manual Deployment
+
+---
+
+# Web Apps
+
+![bg right:60% height:340](../img/sasaf3.svg)
+
+✅ JS + SAS
+✅ GIT / DB Centric
+✅ Continuous Integration
+
+---
+
+# Project Concerns #1
+
+|Topic|Suffering|Prognosis|
+|---|---|---|
+|Inertia|❌ _App worked fine for decades. Why change it?_|✅ _Vastly superior UX and lower maintenance / upgrade costs_|
+|Resource Availability|❌ _We're all super busy and the developer quit in 1999._|✅ _Code review + carefully planned video interviews for minimal customer impact_ |
+
+
+---
+
+# Project Concerns #2
+
+|Topic|Suffering|Prognosis|
+|---|---|---|
+|Scope Uncertainty|❌ _The complexity will cost us 💰💰💰 and take ⏱️⏱️⏱️_|✅  _Phase 0 estimation + regular (functional) deliveries_|
+|House of Cards|❌ _Our data is sensitive, our infrastructure is brittle - systems access is difficult to obtain_|✅ _Deliver **offsite** with sample data, deploy onsite to new environment_|
+
+---
+
+# 4GL Apps Project Approach
+
+- PreSales
+- Delivery
+- Aftercare
+
+---
+
+# 4GL Apps Project Approach
+
+## PreSales
+
+- Preparation (code/doc review, exploratory interviews)
+- Initial Proposal (as is, to be, rough estimates)
+
+---
+## Delivery
+
+- Phase 0 (confirm estimates, scope, initial env setup + interface, fixed price)
+- Phase 1-N (functional deliveries + docs + tests with each milestone)
+
+---
+
+# 4GL Apps Project Approach
+
+## Aftercare
+
+- Testing & Warranty (X days over X months)
+- Training
+- Ongoing Support & Maintenance (IF preferred vendor)
+  - https://sasapps.io/support
+
+---
+# Documentation
+
+_Continuously delivered - NOT at the end of the project_
+
+- [User Guide](https://sasjs.github.io/docs/#/?id=%2fuser-guide%2fuser-overview)
+- [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
+- [Developer Guide](https://sasjs.github.io/docs/#/developer-guide/developer-overview)
+- [SAS Docs](https://core.sasjs.io/) (SASjsDoc)
+- [JS Docs](https://adapter.sasjs.io/) (TypeDoc)
+
+
+---
+
+## End Result
+
+A user-friendly, accessible, modern UI that can:
+
+- run on both Viya and EBI
+- be maintained by generic frontend / backend developers
+- be maintained by the client, or any vendor (not just 4GL Apps)
+
+---
+
+# Tools
+
+- SASjs (DevOps for SAS)
+- Data Controller (controlled data ingestion)
+  - Resulted in a 30% cost saving (~3 months) on DWP project
+- SCL Transcoding Kit (re-use of SCL logic, where necessary)
+
+
+---
+
+<header style="text-align: right">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SCLssssssssssssssssssssssssss </header>
+
+# SCL Kit
+## Functions
+
+![bg right:67% height:300](../img/sasaf4.png)
+
+---
+# SCL Kit
+## Submit Blocks
+
+![bg right:67% height:300](../img/sasaf5.png)
+
+---
+# SCL Kit
+## Object Methods
+
+![bg right:75% height:430](../img/sasaf6.png)
+
+---
+# SCL Kit
+## Method Blocks
+
+![bg right:75% height:430](../img/sasaf7.png)
+
+---
+# SCL Kit
+## After / Before
+
+![bg right:79% height:600](../img/sasaf8.png)
+
+---
+
+# SAS/FSP
+
+ - FSBROWSE: View one record at a time
+ - FSEDIT: Edit one record at a time
+ - FSVIEW: View or edit a table of data
+
+Much of the above functionality is available in [Data Controller for SAS®](https://datacontroller.io). The remaining parts are fairly trivial to build as standalone web apps.
+
+---
 <!-- header: ![h:6em align:right](../img/datacontroller.png) -->
 
 # What is Data Controller?
