@@ -512,6 +512,15 @@ Execute all tests starting with "mv_" and save the output in 'myresults' folder
 - https://sasapps.io
 
 ---
+# AF/SCL Resources
+
+- SAS Apps [Blog Post](https://sasapps.io/modernising-legacy-sas-scl-af-applications)
+- Easy AF [article](https://www.linkedin.com/pulse/easy-af-scl-modernisation-html5-sas-allan-bowe/)
+- UK SAS Forum [presentation](https://drive.google.com/file/d/1RMLxFccaXYh35IGnbcFjISFmZUIdetUO/view)
+- RawSAS [post](https://rawsas.com/modernising-legacy-sas-scl-af-applications/)
+- Youtube [video](https://www.youtube.com/watch?v=G_M1t6hTMJQ)
+
+---
 
 # Contact
 
