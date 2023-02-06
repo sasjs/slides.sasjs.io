@@ -193,7 +193,7 @@ A user-friendly, accessible, modern UI that can:
 
 # Tools
 
-- SASjs (DevOps for SAS)
+- SASjs (DevOps for SAS) - Open Source
 - Data Controller (controlled data ingestion)
   - Resulted in a 30% cost saving (~3 months) on DWP project
 - SCL Transcoding Kit (re-use of SCL logic, where necessary)
