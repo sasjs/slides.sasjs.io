@@ -9,24 +9,13 @@ auto-scaling: fittingHeader
 npx @marp-team/marp-cli slides/af.md -o af/index.html --html=true
 -->
 
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://analytics.4gl.io/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '10']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
+
 <!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
+
 
 # SAS AF/SCL Modernisation
 
-![bg right:64% height:550](../img/afscreen.png)
+![bg right:60% height:440](../img/afscreen.png)
 
 
 ---
@@ -56,6 +45,17 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 
 - Team: 1.5 backend (SAS), 1.5 Frontend (React + Angular)
 - Duration: 6 months
+
+---
+
+# Success Story #3
+
+## USDA, USA
+
+_Functional Proof of Concept and migration plan (with costings) for two large-scale survey processing systems._
+
+- Team: 2 backend (SAS), 1.5 Frontend (React)
+- Duration: 3 months
 
 ---
 
