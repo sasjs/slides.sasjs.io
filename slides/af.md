@@ -98,45 +98,54 @@ _Functional Proof of Concept and migration plan (with costings) for two large-sc
 
 ---
 
+![bg right:38% height:450](../img/projectflow.png)
+
 # 4GL Apps Project Approach
 
-- PreSales
-- Delivery
+- Setup (Phase 0)
+- Delivery (Phase 1-X)
 - Aftercare
 
 ---
 
-# 4GL Apps Project Approach
+![bg right:38% height:450](../img/phase0.png)
 
-## PreSales
+# Project Setup (Phase 0)
 
-- Preparation (code/doc review, exploratory interviews)
-- Initial Proposal (as is, to be, rough estimates)
-
----
-
-# 4GL Apps Project Approach
-
-## Delivery
-
-- Phase 0 (confirm estimates, scope, initial env setup + interface, fixed price)
-- Phase 1-N (functional deliveries + docs + tests with each milestone)
+- Product Research
+  - code/doc review, user interviews
+- Environment setup
+    - GIT repo, sample data, server
+- Plan + Estimates (for rest of project)
 
 ---
 
-# 4GL Apps Project Approach
+# Project Delivery (Phase 1-X)
 
-## Aftercare
+![bg right:38% height:450](../img/phase12x.png)
+
+- Regular sprints with functional, deployable software
+- Documentation / tests updated continuously
+- Daily calls with product champion(s)
+
+---
+
+# Project Aftercare
+
+![bg right:38% height:450](../img/project_aftercare.png)
 
 - Testing & Warranty (X days over X months)
 - Training
-- Ongoing Support & Maintenance (IF preferred vendor)
+- Ongoing Support & Maintenance
   - https://sasapps.io/support
 
 ---
+
+![bg right:38% height:450](../img/docs.png)
+
 # Documentation
 
-_Continuously delivered - NOT at the end of the project_
+_Continuously delivered - NOT end of project_
 
 - [User Guide](https://sasjs.github.io/docs/#/?id=%2fuser-guide%2fuser-overview)
 - [Admin Guide](https://sasjs.github.io/docs/#/admin-guide/admin-overview)
@@ -149,11 +158,11 @@ _Continuously delivered - NOT at the end of the project_
 
 ## End Result
 
-A user-friendly, accessible, modern UI that can:
+A user-friendly, accessible, modern UI
 
-- run on both Viya and EBI
-- be maintained by generic frontend / backend developers
-- be maintained by the client, or any vendor (not just 4GL Apps)
+- Will run on both Viya and SAS 9 EBI
+- Maintainable by generic frontend / backend developers
+- Supportable by the client, or any vendor (not just 4GL Apps)
 
 ---
 
@@ -166,6 +175,9 @@ A user-friendly, accessible, modern UI that can:
 
 
 ---
+
+![bg right:38% height:450](../img/resources.png)
+
 # Resources
 
 - SAS Apps [Blog Post](https://sasapps.io/modernising-legacy-sas-scl-af-applications)
