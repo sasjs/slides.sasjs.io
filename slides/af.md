@@ -52,7 +52,7 @@ _Modernisation of a 10-user AF/SCL Data Management app used for ingestion, trans
 
 ## USDA, USA
 
-_Functional Proof of Concept and migration plan (with costings) for two large-scale survey processing systems._
+_Functional Proof of Concept and migration plan (with costings) for two large-scale AF/SCL survey processing systems._
 
 - Team: 2 backend (SAS), 1.5 Frontend (React)
 - Duration: 3 months
