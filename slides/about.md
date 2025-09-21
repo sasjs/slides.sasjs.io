@@ -10,20 +10,6 @@ auto-scaling: fittingHeader
 npx @marp-team/marp-cli slides/about.md -o about/index.html --html=true
 -->
 
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://analytics.4gl.io/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '10']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
 
 # About 4GL Apps
 
@@ -40,7 +26,7 @@ npx @marp-team/marp-cli slides/about.md -o about/index.html --html=true
 # Who We Are
 
 - UK Company
-- SAS Subcontractor
+- SAS Subcontractor (UK, USA, Belgium, Sweden)
 - Focus on SAS Solutions
 
 
@@ -53,11 +39,10 @@ npx @marp-team/marp-cli slides/about.md -o about/index.html --html=true
 
 # Products
 
-|Data Controller for SAS®|SASensei|SASjs|
+|Data Controller for SAS®|AF/SCL Transcoding Kit|SASjs|
 |:---:|:---:|:---:|
-|[![h:280](../img/dc.png)](https://datacontroller.io)|[![h:280](../img/sasensei.png)](https://sasensei.com)|[![h:280](../img/sasjs.png)](https://sasjs.io)|
+|[![h:280](../img/dc.png)](https://datacontroller.io)|[![h:280](../img/afscl2.png)](https://sasensei.com)|[![h:280](../img/sasjs.png)](https://sasjs.io)|
 
-_Plus SCL Transcoding Kit_
 
 ---
 # 4GL Apps - Services
@@ -77,6 +62,7 @@ _Plus SCL Transcoding Kit_
 - AF/SCL Data Management system, 8 months, UK Gov Dept
 - Demand Planning Tool, 3 months, Der Touristik (Germany)
 - SOAP Interface to Viya, 3 weeks, Swedish Gov Dept
+- AF/SCL Modernisation, 5 months, US Gov
 
 _Plus many more_
 
@@ -108,18 +94,10 @@ _Designed for Regulated Industries_
 - Canada: Bank
 - Denmark: Bank
 - Germany: Siemens Healthineers, Der Touristik
-- Sweden: Insurer
+- Sweden: AFA Insurance
 - UK: Goverment Dept
 
 Plus desktop users
-
----
-
-# Data Controller Partners
-
-- Analytium (UK SAS Partner)
-- Notilyze (Netherlands SAS Partner)
-- Selerity (Australia SAS Partner)
 
 ---
 
@@ -157,7 +135,7 @@ _MIT open source / free for commercial use_
 
 ## SASjs Workflow
 
-![height:520px bg right:75% ](https://i.imgur.com/gIYp5OG.png)
+![height:500px bg right:70% ](https://i.imgur.com/gIYp5OG.png)
 
 <!-- build on current platform, deploy later to new -->
 

@@ -21,20 +21,6 @@ npx @marp-team/marp-cli slides/4gl.md -o 4gl/index.html --html=true
 
 ![bg right:35% height:350](../img/allan.jpeg)
 
-<!--
-Location - where UK, Portugal,.......
-
-What Focus is
-
-Data Accessiblity? / User Experience....
-
-Key Industry;s we play
-
-Market Geographies, UK, Portugal, Germany....
-
-What we sell -100% SAS
-
-Acreditations (OpenSource....) -->
 
 ---
 
@@ -43,7 +29,7 @@ Acreditations (OpenSource....) -->
 # Who We Are
 
 - UK Ltd
-- SAS Subcontractor (UK, Sweden)
+- SAS Subcontractor (UK, Sweden, USA, Belgium)
 - SAS Consulting + Web Development
 
 
