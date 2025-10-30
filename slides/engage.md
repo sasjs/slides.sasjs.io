@@ -58,4 +58,4 @@ More info: https://slides.sasjs.io/af
 
  - Engagement approach (none / taster / straight to delivery)
  - Target app / content for PoC / Phase 0
- - Customer Timeline
+ - Timeline
