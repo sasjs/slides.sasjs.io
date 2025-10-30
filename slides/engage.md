@@ -42,7 +42,7 @@ npx @marp-team/marp-cli slides/engage.md -o engage/index.html --html=true
 
 # Full Project
 
-- Setup (Phase 0)
+- Setup ([Phase 0](https://slides.sasjs.io/phase0/))
   - Detailed Discovery
   - Detailed Estimates
 - Delivery (Phase 1-X)
