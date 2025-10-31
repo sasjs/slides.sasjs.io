@@ -56,6 +56,6 @@ More info: https://slides.sasjs.io/af
 
 # Questions
 
- - Engagement approach (none / taster / straight to delivery)
- - Target app / content for PoC / Phase 0
+ - Engagement approach (none / PoC / straight to delivery)
+ - Target app / Support for Interface / Phase 0
  - Timeline
