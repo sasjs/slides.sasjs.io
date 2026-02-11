@@ -27,7 +27,7 @@ npx @marp-team/marp-cli slides/about.md -o about/index.html --html=true
 
 - UK Company
 - SAS Subcontractor (UK, USA, Belgium, Sweden)
-- Focus on SAS Solutions
+- Focus on SAS-Powered Web Apps
 
 
 ![bg right:40% height:680](../img/us.png)
@@ -70,9 +70,9 @@ _Plus many more_
 
 # What is Data Controller?
 
-- Controlled Data Capture
-- Governance
-- Exploration
+- **Controlled Data Capture**
+- Data Quality & Data Governance
+- Data Exploration
 
 _Designed for Regulated Industries_
 
@@ -85,7 +85,7 @@ _Designed for Regulated Industries_
 - Eliminate entire Design/Dev/Test/Promote resource cost
 - Ingest 'invisible' data into SAS (silos, EUCs)
 - Automatic Data Quality at source
-- Showcase Lineage (SAS9)
+
 ---
 
 # Data Controller Customers
@@ -97,15 +97,15 @@ _Designed for Regulated Industries_
 - Sweden: AFA Insurance
 - UK: Goverment Dept
 
-Plus desktop users
+Plus desktop users around the world
 
 ---
 
 # Where Data Controller is most useful:
 
 - Regulated Industries - require evidence for audit
-- Customer has DI Studio data lineage
-- Customer ingests excel data
+- Customer ingests complex excel data
+- Significant business data capture
 
 ---
 
@@ -127,9 +127,10 @@ _MIT open source / free for commercial use_
 
 ![height:500px bg right:63% ](../img/sasjs_feedback.png)
 
-- Over 55k downloads
-- ~ 20 contributors
-- 35 Repositories
+- [![npm package](https://img.shields.io/npm/v/@sasjs/core.svg)](http://npmjs.org/package/@sasjs/core)
+- ![GitHub Org's stars](https://img.shields.io/github/stars/sasjs)
+- ![GitHub contributors](https://img.shields.io/github/contributors/sasjs/core)
+
 
 ---
 
