@@ -127,10 +127,9 @@ _MIT open source / free for commercial use_
 
 ![height:500px bg right:63% ](../img/sasjs_feedback.png)
 
-- [![npm package](https://img.shields.io/npm/v/@sasjs/core.svg)](http://npmjs.org/package/@sasjs/core)
-- ![GitHub Org's stars](https://img.shields.io/github/stars/sasjs)
-- ![GitHub contributors](https://img.shields.io/github/contributors/sasjs/core)
-
+- Core Downloads: ![NPM Downloads](https://img.shields.io/npm/d18m/%40sasjs%2Fcore)
+- SASjs Stars ![GitHub Org's stars](https://img.shields.io/github/stars/sasjs)
+- Core Contributors: ![GitHub contributors](https://img.shields.io/github/contributors/sasjs/core)
 
 ---
 
