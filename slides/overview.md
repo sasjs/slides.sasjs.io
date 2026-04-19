@@ -178,16 +178,19 @@ _Trusted in regulated industries where audit, reproducibility & quality matter._
 
 ---
 
-<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
+<!-- header: ![h:3em align:right](../img/4gl-logo2.png) -->
 
 # Our Products
 
 | Data Controller for SAS® | AF/SCL Transcoding Kit | SASjs |
 |:---:|:---:|:---:|
-| [![h:260](../img/dc.png)](https://datacontroller.io) | [![h:260](../img/afscl2.png)](https://sasensei.com) | [![h:260](../img/sasjs.png)](https://sasjs.io) |
+| [![h:250](../img/dc.png)](https://datacontroller.io) | [![h:250](../img/afscl2.png)](https://sasensei.com) | [![h:250](../img/sasjs.png)](https://sasjs.io) |
+
+_SASjs underpins Data Controller and AF/SCL modernisation deliveries / support contracts.  Hence, **4GL Apps will continue to maintain & support SASjs**_.
 
 
 ---
+<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
 
 # Our Services
 
