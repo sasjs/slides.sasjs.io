@@ -11,9 +11,9 @@ npx @marp-team/marp-cli slides/overview.md -o overview/index.html --html=true
 
 # SASjs Overview
 
-## Tech Summary, Stakeholder Benefits & Company Info
+## Tech Summary, Stakeholder Benefits, Company Info
 
-![bg right:50% height:400](../img/sasjs_logo.png)
+![ height:650px bg right:53%](../img/anakin-and-padme.jpeg)
 
 ---
 
@@ -36,7 +36,7 @@ Home-grown projects often suffer from:
 
 - 📂 **Scattered Artefacts** > _Hard to navigate, changes get lost_
 - 👥 **Shared Environments** > _Edits affect everyone_
-- 🐌 **Slow On-boarding** > _No standard project structure_
+- 🐌 **Slow On-Boarding** > _No standard project structure_
 - 🧩 **Manual Deployments** > _Click-ops, hard to reproduce_
 
 🤬 _Inconsistent delivery, brittle releases, expensive ramp-up_
@@ -45,10 +45,10 @@ Home-grown projects often suffer from:
 
 # The SASjs Approach
 
-- ✅ **Automated Deployment to Viya** > _Runs in Pipeline_
-- ✅ **Centralised Artefacts** > _Source Controlled_
+- ✅ **Centralised Artefacts** > _Source controlled, assets mapped_
 - ✅ **Isolated Dev Environments** > _Move fast, break nothing_
 - ✅ **Standardised Project Layout** > _Onboard in hours, not weeks_
+- ✅ **Automated Deployment to Viya** > _Runs in Pipeline_
 
 Purpose-built for **SAS Viya**.
 
@@ -63,7 +63,8 @@ Purpose-built for **SAS Viya**.
 | [`@sasjs/core`](https://core.sasjs.io) | SAS Macro library (~250 macros) |
 | [`@sasjs/adapter`](https://adapter.sasjs.io) | JS ↔ Viya connector (browser/Node) |
 
-_First released / actively maintained since July 2020_
+_Actively / continuously maintained since **July 2020**_
+
 
 ---
 
@@ -104,8 +105,8 @@ _Swept into relevant programs and deployed to Viya within Jobs._
 
 - Connects **any web frontend** to **SAS Viya**
 - Handles auth, sessions, log capture, debug mode
+- SASLogon redirect (retain app state on session expiry)
 - Built on the Viya **Job Execution Service** REST APIs
-- Powers every **streaming app** built with SASjs
 
 ```js
 const adapter = new SASjs({ serverType: 'SASVIYA', appLoc: '/Public/app' })
@@ -129,7 +130,7 @@ _Zero-footprint, zero-risk adoption._
 # Benefits — Project Leads 📋
 
 - ⚡ **Faster on-boarding** of new developers
-- 🧪 Built-in **testing & documentation** 
+- ⚡ **Faster development** thanks to rapid build/test cycle
 - 🔁 **Reproducible deployments** 
 - 💰 **Lower TCO** through automation and reuse
 - 📉 Lower delivery risk, predictable timelines
@@ -141,7 +142,7 @@ _Zero-footprint, zero-risk adoption._
 - 🚀 **Faster delivery** of new features
 - 🐛 **Higher quality** through automated testing
 - 📱 **Modern web UIs** powered by SAS
-- 📚 **Better documentation** of what the system does
+- 📚 Built-in **documentation** 
 
 
 
@@ -149,10 +150,11 @@ _Zero-footprint, zero-risk adoption._
 
 # Who Uses SASjs 🌍
 
-- 🏛️ **Public Sector** — UK, US, Sweden
-- 🏦 **Banks & Insurers** — Allianz, AFA, Canada Western Bank & others 
-- ✈️ **Travel & Retail** — Der Touristik, Informa
-- SAS R&D
+- 🏛️ **Government** — UK, US, Sweden
+- 🏦 **Banks** — Canada Western Bank, Jyske Bank, HSBC
+- ☂️ **Insurance** — Allianz, AFA, Federale, LVM, Ergo, P&V
+- 🏢 **Enterprise** — Der Touristik, Siemens Healthineers
+- 🔬 **SAS R&D** — used internally by SAS Institute teams
 - 🏢 **Consultancies & SAS Partners** worldwide
 
 _Trusted in regulated industries where audit, reproducibility & quality matter._
@@ -160,19 +162,23 @@ _Trusted in regulated industries where audit, reproducibility & quality matter._
 
 ---
 
+<!-- header: ![h:6em align:right](../img/4gl-logo2.png) -->
+
 # About 4GL Apps
 
 ![bg right:35% height:350](../img/allan.jpeg)
 
 - 🇬🇧 **UK Limited Company** since 2013
 - **SAS Subcontractor** — UK, USA, Belgium, Sweden
-- **Focus:** SAS Powered Web Apps
+- **Singular Focus:** SAS Powered Web Apps
 - **Size:** 10 People
 - Founded by **Allan Bowe**, ex-SAS Institute
 
 
 
 ---
+
+<!-- header: ![h:4em align:right](../img/4gl-logo2.png) -->
 
 # Our Products
 
@@ -187,7 +193,7 @@ _Trusted in regulated industries where audit, reproducibility & quality matter._
 
 ![bg right:40% height:380](https://sasapps.io/static/analytics-platform-ea8bd9675c0382091a2c329eb9383ad2.svg)
 
-- **Modernisation** — AF/SCL + SAS/Intrnet 
+- **Modernisation** — AF/SCL + SAS/IntrNet 
 - **Migration** — STP web apps → Viya
 - **Manifestation** — bespoke SAS web apps
 - **Support** — long-term partnerships
@@ -199,6 +205,7 @@ _Trusted in regulated industries where audit, reproducibility & quality matter._
 - 🇬🇧 **400-user AF/SCL modernisation**, 8 months — Allianz UK
 - 🇬🇧 **AF/SCL Data Management system**, 8 months — UK Gov
 - 🇩🇪 **Demand Planning Tool**, 3 months — Der Touristik
+    - Re-engaged for app extension, 2 months, same client
 - 🇸🇪 **SOAP Interface to Viya**, 3 weeks — Swedish Gov
 - 🇺🇸 **AF/SCL Modernisation**, 5 months — US Gov
 
@@ -214,15 +221,6 @@ _Plus many more across regulated industries._
 - 📚 [core.sasjs.io](https://core.sasjs.io) — macro library docs
 - 🎤 [slides.sasjs.io](https://slides.sasjs.io) — all presentations
 - 💼 [datacontroller.io](https://datacontroller.io) — Data Controller
-- 🚀 [sasapps.io](https://sasapps.io) — 4GL Apps services
+- 🚀 [4gl.io](https://4gl.io) — 4GL SAS Apps services
 - 🐙 [github.com/sasjs](https://github.com/sasjs) — source code
 
----
-
-# Thank You
-
-## Questions?
-
-![bg right:40% height:500](../img/sasjs_logo.png)
-
-**4GL Apps Ltd** • [sasapps.io](https://sasapps.io)
