@@ -150,7 +150,7 @@ _Zero-footprint, zero-risk adoption._
 
 # Who Uses SASjs 🌍
 
-- 🏛️ **Government** — UK, US, Sweden
+- 🏛️ **Government** — UK, USA, Sweden
 - 🏦 **Banks** — Canada Western Bank, Jyske Bank, HSBC
 - ☂️ **Insurance** — Allianz, AFA, Federale, LVM, Ergo, P&V
 - 🏢 **Enterprise** — Der Touristik, Siemens Healthineers
@@ -205,12 +205,12 @@ _SASjs underpins Data Controller and AF/SCL modernisation deliveries / support c
 
 # Selected Projects
 
-- 🇬🇧 **400-user AF/SCL modernisation**, 8 months — Allianz UK
-- 🇬🇧 **AF/SCL Data Management system**, 8 months — UK Gov
-- 🇩🇪 **Demand Planning Tool**, 3 months — Der Touristik
-    - Re-engaged for app extension, 2 months, same client
-- 🇸🇪 **SOAP Interface to Viya**, 3 weeks — Swedish Gov
-- 🇺🇸 **AF/SCL Modernisation**, 5 months — US Gov
+- 🇬🇧 **400-user AF/SCL modernisation**, Allianz UK
+- 🇬🇧 **AF/SCL Data Management system**, UK Gov
+- 🇩🇪 **Demand Planning Tool**, Der Touristik
+    - Re-engaged for app extension, same client
+- 🇸🇪 **SOAP Interface to Viya**, Swedish Gov
+- 🇺🇸 **AF/SCL Modernisation**, US Gov
 
 _Plus many more across regulated industries._
 
