@@ -7,12 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "all": "npm run afscl && npm run 6min && npm run devops && npm run msug && npm run server",
-    "afscl": "marp ./slides/af-scl.md -o ./af-scl/index.html --html=true",
-    "6min": "marp ./slides/slides6min.md -o ./appdev/index.html --html=true",
-    "devops": "marp ./slides/devops.md -o ./devops/index.html --html=true",
-    "msug": "marp ./slides/msug.md -o ./msug/index.html --html=true",
-    "server": "marp ./slides/server.md -o ./server/index.html --html=true"
+    "build": "bash scripts/build-slides.sh"
   },
   "repository": {
     "type": "git",
@@ -30,6 +25,6 @@
   },
   "homepage": "https://slides.sasjs.io",
   "dependencies": {
-    "@marp-team/marp-cli": "2.0.4"
+    "@marp-team/marp-cli": "3.4.0"
   }
 }

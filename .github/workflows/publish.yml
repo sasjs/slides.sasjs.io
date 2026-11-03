@@ -1,26 +1,57 @@
-name: Publish docs via GitHub Pages
+name: Publish decks
+
+# Renders the markdown in slides/ and commits the result, because GitHub Pages
+# serves this repository from `main` (Settings > Pages > branch).
+#
+# The commit triggers this workflow once more; the second run renders identical
+# output, finds nothing to commit, and stops. The bot guard below skips that run
+# outright rather than relying on the diff.
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-decks
+  cancel-in-progress: true
 
 jobs:
-  slides:
-    name: Generate slides
+  build:
+    name: Render and publish
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      - name: Phuse PDF
-        run: echo "# npx @marp-team/marp-cli slides/phuse.md -o phuse/slides.pdf --allow-local-files"
-        env:
-          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Commit and push slides
-        uses: EndBug/add-and-commit@v5
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          branch: main
-          message: 'Update slides'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install the deck builder
+        run: npm ci --no-audit --no-fund
+
+      - name: Render every deck
+        # scripts/build-slides.sh maps each slides/*.md to the folder it is
+        # published at, so a new deck is a markdown file and nothing else.
+        run: npm run build
+
+      - name: Commit the rendered decks
+        run: |
+          if git diff --quiet; then
+            echo "no deck changed - nothing to commit"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "docs(decks): render from source"
+          git push
