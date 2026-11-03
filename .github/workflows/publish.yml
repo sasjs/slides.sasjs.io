@@ -11,6 +11,11 @@ on:
   push:
     branches:
       - main
+  # A pull request renders the decks too, so a broken deck fails before it is
+  # merged rather than on the commit that publishes it.
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -45,6 +50,9 @@ jobs:
         run: npm run build
 
       - name: Commit the rendered decks
+        # Only on main: a pull request has nothing to commit to, and a fork
+        # could not push anyway.
+        if: github.event_name != 'pull_request'
         run: |
           if git diff --quiet; then
             echo "no deck changed - nothing to commit"
